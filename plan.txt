@@ -1,0 +1,18 @@
+Homepage
+	greeting
+	explanation of how the site is set up
+About me
+	more personal details
+	demonstration of extra curricular activity contribution
+	family and interests/hobbies
+Classes
+	should this be My Work? which would include classes and other projects
+	links to course work for each class
+	link to proposal
+Research
+	description
+	images
+	eventually link to thesis
+Contact me
+	email
+	CV link
