@@ -17,7 +17,6 @@ partition(theArray: ItemArray, first: integer, last: integer): integer
   // Choose pivot and reposition it
   mid = first + (last - first) / 2
   
-  // page 322
   sortFirstMiddleLast(theArray, first, mid, last)
   Interchange theArray[mid] and theArray[last – 1]
   pivotIndex = last - 1
