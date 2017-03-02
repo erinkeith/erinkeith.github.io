@@ -1,0 +1,55 @@
+// Arranges the first, middle, and last entries in an array into ascending order.
+sortFirstMiddleLast(theArray: ItemArray, first: integer, mid: integer, last: integer): void
+  if (theArray[first] > theArray[mid])
+    Interchange theArray[first] and theArray[mid]
+    
+  if (theArray[mid] > theArray[last])
+    Interchange theArray[mid] and theArray[last]
+    
+  if (theArray[first] > theArray[mid])
+    Interchange theArray[first] and theArray[mid]
+
+================================================================================================================================
+
+// Partitions theArray[first..last].
+partition(theArray: ItemArray, first: integer, last: integer): integer
+
+  // Choose pivot and reposition it
+  mid = first + (last - first) / 2
+  
+  // page 322
+  sortFirstMiddleLast(theArray, first, mid, last)
+  Interchange theArray[mid] and theArray[last – 1]
+  pivotIndex = last - 1
+  pivot = theArray[pivotIndex]
+  
+  // Determine the regions S 1 and S 2
+  indexFromLeft = first + 1
+  indexFromRight = last - 2
+  
+  done = false
+  while (not done)
+  {
+    // Locate first entry on left that is ≥ pivot
+    while (theArray[indexFromLeft] < pivot)
+      indexFromLeft = indexFromLeft + 1
+  
+    // Locate first entry on right that is ≤ pivot
+    while (theArray[indexFromRight] > pivot)
+      indexFromRight = indexFromRight - 1
+      
+    if (indexFromLeft < indexFromRight)
+    {
+      Interchange theArray[indexFromLeft] and theArray[indexFromRight]
+      indexFromLeft = indexFromLeft + 1
+      indexFromRight = indexFromRight - 1
+    }
+    
+    else
+      done = true
+  }
+  
+// Place pivot in proper position between S 1 and S 2 , and mark its new location
+Interchange theArray[pivotIndex] and theArray[indexFromLeft]
+pivotIndex = indexFromLeft
+return pivotIndex
