@@ -6,7 +6,7 @@
 //Aranges the first, middle, and last entries in an array into ascending order.
 sortFirstMiddleLast(theArray: ItemArray, first: integer, mid: integer, last: integer) void
 {
-    if (theArray[first] > theArray[mid)
+    if (theArray[first] > theArray[mid])
         //Interchange theArray[first] and theArray[mid]
         
     if (theArray[mid] > theArray[last])
