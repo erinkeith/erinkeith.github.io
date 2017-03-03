@@ -3,6 +3,19 @@
 
 // Listing 11-5.
 
+//Aranges the first, middle, and last entries in an array into ascending order.
+sortFirstMiddleLast(theArray: ItemArray, first: integer, mid: integer, last: integer) void
+{
+    if (theArray[first] > theArray[mid)
+        //Interchange theArray[first] and theArray[mid]
+        
+    if (theArray[mid] > theArray[last])
+        //Interchange theArray[mid] and theArray[last]
+        
+    if (theArray[first] > theArray[mid])
+        //Interchange theArray[first] and theArray[mid]
+}
+
 /** Sorts an array into ascending order. Uses the quick sort with
     median-of-three pivot selection for arrays of at least MIN_SIZE
     entries, and uses the insertion sort for other arrays.
