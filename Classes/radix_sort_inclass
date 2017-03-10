@@ -1,0 +1,30 @@
+radix_sort(array, d, k)
+  for i in d
+    group_by(array, i, k)
+   
+   
+   
+   
+   
+group_by(array, column, base)
+  sorted_array = []
+  
+  // create some buckets
+  for i in base
+    buckets[i] = []
+    
+  // look at each value
+  for number in array
+    // put number in correct bucket
+      // how do we get the value from the column?
+      digit_value = (number % (base ^ column)) / (base ^ (column-1))
+      
+      // how do we put it in the bucket?
+      buckets[digit_value] = number
+      
+  // put the arrays together
+  for i in base
+    for j in i
+      
+  
+  return sorted_array
