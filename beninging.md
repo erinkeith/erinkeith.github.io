@@ -1,7 +1,3 @@
-layout: page
-title: "Introduction"
-permalink: /beninging
-
 <h2><strong><span style="font-family: 'courier new', courier;">Hello World!</span></strong></h2>
 <p>You've made it to Computer Science I which means that for some reason you want to tell computers what to do! It may be that you've never coded before, or maybe just once, or maybe all the time, but it's very likely you haven't done much coding in the C programming language. No matter what your experience level is coming into this class, my goal is that all students pass with the same foundational knowledge of core programming concepts and the skills to implement them in C. So let's start by answering that question:</p>
 <h3>Why C?</h3>
