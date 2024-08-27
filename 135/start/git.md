@@ -1,10 +1,10 @@
-We'll be using a very common industry tool to support our project submission process. This page will provide background information, but you can find more information on specific topics here:
+<p>This page will provide background information on a very common industry tool we'll be using to support our project submission process.</p>
 
-git
+<h3>git</h3>
 
 ![git_defined](https://github.com/user-attachments/assets/f3581fd2-d71e-4f60-8580-89ec393ba9d7)
 
-But what is "version control"? (also know as "source control") https://aws.amazon.com/devops/source-control/
+But what is "version control"? (also know as "source control") <href="https://aws.amazon.com/devops/source-control/">
 
 git is the application that gets installed onto your computer (git Setup) and is what's being "invoked" when you run the submission commands:
 
