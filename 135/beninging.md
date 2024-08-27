@@ -29,7 +29,7 @@
 </ul>
 <p>The topics will fall under the following categories:</p>
 <ul>
-    <li>>Getting Started</li>
+    <li>Getting Started</li>
     <li>Storing Data in programs</li>
     <li>Operations</li>
     <li>Input and Output</li>
