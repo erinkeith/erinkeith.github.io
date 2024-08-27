@@ -29,7 +29,7 @@
 </ul>
 <p>The topics will fall under the following categories:</p>
 <ul>
-    <li><a title="Getting Started" href="https://webcampus.unr.edu/courses/112946/pages/getting-started-3" data-course-type="wikiPages" data-published="true" data-api-endpoint="https://webcampus.unr.edu/api/v1/courses/112946/pages/getting-started-3" data-api-returntype="Page">Getting Started</a></li>
+    <li>>Getting Started</li>
     <li>Storing Data in programs</li>
     <li>Operations</li>
     <li>Input and Output</li>
