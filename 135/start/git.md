@@ -1,3 +1,4 @@
+<h2>We've got it <i>under control</i></h2>
 <p>This page will provide background information on a very common industry tool we'll be using to support our project submission process.</p>
 
 <h3>git</h3>
