@@ -4,7 +4,7 @@
 
 ![git_defined](https://github.com/user-attachments/assets/f3581fd2-d71e-4f60-8580-89ec393ba9d7)
 
-But what is "version control"? (also know as "source control") <a href="https://aws.amazon.com/devops/source-control/">
+But what is "version control"? (also know as "source control") https://aws.amazon.com/devops/source-control/
 
 git is the application that gets installed onto your computer (git Setup) and is what's being "invoked" when you run the submission commands:
 
