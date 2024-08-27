@@ -1,3 +1,4 @@
+<h2>The "Kitchen"</h2>
 <p>A <strong>development environment</strong> includes the <span style="text-decoration: underline;">tools and processes</span> we need to <span style="background-color: #eccafa;"><strong>write the code</strong></span>, "translate" or <span style="background-color: #bfedd2;"><strong>compile the code</strong></span>, then <span style="background-color: #f8cac6;"><strong>run the program</strong></span>.</p>
 <ul>
   <li>We'll <span style="background-color: #eccafa;"><strong>write the code</strong></span> in a text editor and save it in a <strong><span style="font-family: 'courier new', courier;">.c</span></strong> file.</li>
