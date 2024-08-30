@@ -12,9 +12,7 @@
 
 <p>All our other code (at least to start with) will go between those two parts.</p>
 
-<p>As far as "behavior" (what the computer does when we run our program), this code doesn't really <i>do</i> anything, but it is required and can be considered the "start" of our programs.</p>
-
-<p>Many questions about how to code get a "it depends" answer, but this is something you can just memorize! The first code you should write in every program file should be:</p>
+<p>As far as "behavior" (what the computer does when we run our program), this code doesn't really <i>do</i> anything, but it is required and can be considered the "start" of our programs. So many questions about how to code are answered with "it depends", but this is something you can just memorize! The first code you should write in every program file should be:</p>
 
 <code>int main(){
     return 0;
