@@ -15,7 +15,7 @@
 
 <p>As far as "behavior" (what the computer does when we run our program), this code doesn't really <i>do</i> anything, but it is required and can be considered the "start" of our programs. So many questions about how to code are answered with "it depends", but this is something you can just memorize!</p> 
 
-<p><a href="#PreferredFormat">The first code you should write in every program file should be:</a></p>
+<p><a name="PreferredFormat">The first code you should write in every program file should be:</a></p>
 
 <pre><code>int main(){
 
@@ -122,4 +122,4 @@
 
 }</code></pre>
 
-<p>but it's a best practice to include the return statement and grading will reflect that. Again, there are a couple of valid variations of this, but in this class you'll see the <a name="PreferredFormat">preferred format</a>.</p>
+<p>but it's a best practice to include the return statement and grading will reflect that. Again, there are a couple of valid variations of this, but in this class you'll see the <a href="#PreferredFormat">preferred format</a>.</p>
