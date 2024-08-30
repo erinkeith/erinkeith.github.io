@@ -6,10 +6,19 @@
 
 <p>and end with</p>
 
-<code>    return 0;
+<code>   return 0;
 }</code>
 
 <p>All our other code (at least to start with) will go between those two parts.</p>
+
+<p>As far as "behavior" (what the computer does when we run our program), this code doesn't really <i>do</i> anything, but it is required and can be considered the "start" of our programs.</p>
+
+<p>Many questions about how to code get a "it depends" answer, but this is something you can just memorize! The first code you should write in every program file should be:</p>
+
+<code>int main(){
+
+   return 0;
+}</code>
 
 <p>The main function is required for every program and is the starting point of <strong>execution</strong> (when the program is running).</p>
 <table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
