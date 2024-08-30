@@ -1,4 +1,17 @@
-<p>The main function is required for every program and is the starting point of <strong>execution </strong>(when the program is running).</p>
+<p>Generally, the code we write in this class will run <a href="https://www.dictionary.com/browse/sequentially"><i>sequentially</i></a>, so we should have a well-defined, consistent starting point. Enter the <strong><span style="font-family: 'courier new', courier;">main</span></strong> function! (We'll learn about "functions" later, I promise!)</p>
+
+<p>Every program in C must include a <strong><span style="font-family: 'courier new', courier;">main</span></strong> function. While you may see some variations of the format in the wild, our programs will always start with</p>
+
+<code>int main(){</code>
+
+<p>and end with</p>
+
+<code>    return 0;
+}</code>
+
+<p>All our other code (at least to start with) will go between those two parts.</p>
+
+<p>The main function is required for every program and is the starting point of <strong>execution</strong> (when the program is running).</p>
 <table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
     <tbody>
         <tr style="height: 28px; border-style: groove;">
@@ -82,11 +95,3 @@
         </tr>
     </tbody>
 </table>
-<p><strong style="font-family: inherit; font-size: 1.5em;">Additional Resources</strong></p>
-<h4>Lecture Slides:</h4>
-<h4 style="padding-left: 40px;"><a class="instructure_file_link instructure_scribd_file inline_disabled" title="2_WritingSimpleProgram.pdf" href="https://webcampus.unr.edu/courses/109022/files/13137193?wrap=1" target="_blank" rel="noopener" data-api-endpoint="https://webcampus.unr.edu/api/v1/courses/109022/files/13137193" data-api-returntype="File">2_WritingSimpleProgram.pdf</a></h4>
-<h4>Textbook:</h4>
-<h4 style="padding-left: 40px;">Chapters 2.1, 2.2, 2.3, 2.8</h4>
-<h4>Videos:</h4>
-<p style="padding-left: 40px;">CS 135 Hello World Demo: <a href="https://youtu.be/PPVdlFIl7R0" target="_blank" rel="noopener">https://youtu.be/PPVdlFIl7R0</a></p>
-<p><a href="https://www.geeksforgeeks.org/c-language-set-1-introduction/"></a></p>
