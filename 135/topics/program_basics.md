@@ -15,13 +15,14 @@
 
 <p>As far as "behavior" (what the computer does when we run our program), this code doesn't really <i>do</i> anything, but it is required and can be considered the "start" of our programs. So many questions about how to code are answered with "it depends", but this is something you can just memorize! The first code you should write in every program file should be:</p>
 
-<pre><code>main(){
+<pre><code>int main(){
 
    return 0;
 }</code></pre>
 
 <p>If this is missing, you will see an error when trying to compile<a href="#*">*</a>. For example: </p>
-<pre><code>int main(){
+
+<pre><code>main(){
 
    return 0;
 }</code></pre>
