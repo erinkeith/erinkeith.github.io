@@ -9,8 +9,7 @@ But what is "version control" (also know as "source control")? You can find an e
 
 git is the application that gets installed onto your computer (git Setup) and is what's being "invoked" when you run the submission commands:
 
-<code>
-git add .
+<code>git add .
 git commit -m "your commit message"
 git push
 </code>
