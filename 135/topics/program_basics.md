@@ -22,12 +22,15 @@
    return 0;
 }</code></pre>
 
-<p>If this is missing, you will see an error when trying to compile<a href="#*">*</a>. For example: </p>
+<p>If this is missing, you will see an error when trying to compile<a href="#*">*</a>. For example, compiling a program with: </p>
 
 <pre><code>main(){
 
    return 0;
 }</code></pre>
+
+<p>will result in: </p>
+<h2>TODO: syntax error!</h2>
 
 <a name="Quick Reference">Quick Reference</a>
 <table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
