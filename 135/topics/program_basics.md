@@ -3,7 +3,7 @@
 <p>Generally, the code we write in this class will run <a href="https://www.dictionary.com/browse/sequentially"><i>sequentially</i></a>, so we should have a well-defined, consistent starting point. Enter the <strong><span style="font-family: 'courier new', courier;">main</span></strong> function! (We'll learn about "functions" later, I promise!)</p>
 
 <p>Every program in C must include a <strong><span style="font-family: 'courier new', courier;">main</span></strong> function. While you may see some variations of the format in the wild, our programs will always start with</p>
-
+<h2>TODO: change to images (fix sizing?)</h2>
 <pre><code>int main(){</code></pre>
 
 <p>and end with</p>
@@ -21,6 +21,10 @@
 }</code></pre>
 
 <p>If this is missing, you will see an error when trying to compile<a href="#*">*</a>. For example: </p>
+<pre><code>int main(){
+
+   return 0;
+}</code></pre>
 
 <a name="Quick Reference">Quick Reference</a>
 <table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
@@ -39,7 +43,7 @@
                     <li>the main function</li>
                 </ul>
             </td>
-            <td style="width: 16.6508%; border-style: none; height: 203px;"><img src="https://webcampus.unr.edu/courses/109022/files/12923823/preview" alt="Required Syntax" width="277" height="162" data-api-endpoint="https://webcampus.unr.edu/api/v1/courses/109022/files/12923823" data-api-returntype="File" /></td>
+            <td style="width: 16.6508%; border-style: none; height: 203px;"></td>
             <td style="width: 16.6508%; border-style: none;">
                 <ul>
                     <li>If you don't include the correct library for functions you call but don't write, there will be a compiler error.</li>
@@ -63,7 +67,7 @@
                     </li>
                 </ul>
             </td>
-            <td style="width: 16.6508%; border-style: none; height: 356px;"><img src="https://webcampus.unr.edu/courses/109022/files/12923826/preview" alt="Conventions" width="277" height="168" data-api-endpoint="https://webcampus.unr.edu/api/v1/courses/109022/files/12923826" data-api-returntype="File" /></td>
+            <td style="width: 16.6508%; border-style: none; height: 356px;"></td>
             <td style="width: 16.6508%; border-style: none;">
                 <ul>
                     <li>Macros are like labels which make values in your code easier to read
@@ -95,7 +99,7 @@
                     </li>
                 </ul>
             </td>
-            <td style="width: 16.6508%; border-style: none;"><img src="https://webcampus.unr.edu/courses/109022/files/12923827/preview" alt="Best Practices" data-ally-user-updated-alt="Best Practices" data-api-endpoint="https://webcampus.unr.edu/api/v1/courses/109022/files/12923827" data-api-returntype="File" /></td>
+            <td style="width: 16.6508%; border-style: none;"></td>
             <td style="width: 16.6508%; border-style: none;">
                 <ul>
                     <li>Header comments give the reader more information, like who wrote the program.</li>
