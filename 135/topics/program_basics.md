@@ -43,7 +43,7 @@ Multi-line comments start with a forward slash then asterisk <code>/*</code> but
 
 <p>In most cases, especially if you have a short note, single-line comments will do. In this class, you will be expected to include what we call "header comments" at the top of each program file. It's a good habit to get into and it will help the graders do their work! You can use whatever kind of comments you like, but an example of my preferred style is below.</p>
 
-<p><a name="PreferredFormat">The first code you should write in every program file should be:</a></p>
+<p>The first things to put in every program file should be the header comments and main function:</p>
 
 ![with_comments](https://github.com/user-attachments/assets/7e6b5e76-18a1-4e67-a6ae-05c2b49e747f)
 
@@ -53,4 +53,4 @@ Multi-line comments start with a forward slash then asterisk <code>/*</code> but
 
 }</code></pre>
 
-<p>but it's a best practice to include the return statement and grading will reflect that. Again, there are a couple of valid variations of this, but in this class you'll see the <a href="#PreferredFormat">preferred format</a>.</p>
+<p>but it's a best practice to include the return statement and grading will reflect that. Again, there are a couple of valid variations of this, but in this class you'll see the preferred format.</p>
