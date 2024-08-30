@@ -1,5 +1,5 @@
 # Courses
-- <a href="https://erinkeith.github.io/135">135</a>
+- <a href="https://erinkeith.github.io/cs135">135</a>
 - 202
 - 302
 - 326
