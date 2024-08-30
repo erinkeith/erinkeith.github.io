@@ -39,7 +39,7 @@
 
 Single-line comments start with 2 forward slashes <code>//</code> and they end automatically at the end of the line.
 
-Multi-line comments start with a forward slash then asterisk <code>/\*</code> but only end after the reverse <code>*/</code> (an asterisk then forward slash).
+Multi-line comments start with a forward slash then asterisk <code>/*</code> but only end after the reverse <code>*/</code> (an asterisk then forward slash).
 
 <p>In most cases, especially if you have a short note, single-line comments will do. In this class, you will be expected to include what we call "header comments" at the top of each program file. It's a good habit to get into and it will help the graders do their work! You can use whatever kind of comments you like, but an example of my preferred style is below.</p>
 
