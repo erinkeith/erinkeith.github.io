@@ -4,7 +4,7 @@
 
 <p>Every program in C must include a <strong><span style="font-family: 'courier new', courier;">main</span></strong> function. While you may see some variations of the format in the wild, our programs will always start with</p>
 
-<code>int main(){</code>
+<code style="display:block; white-space:pre-wrap">int main(){</code>
 
 <p>and end with</p>
 
