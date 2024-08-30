@@ -8,8 +8,8 @@
 
 <p>and end with</p>
 
-<code style="display:block; white-space:pre-wrap">   return 0;
-}</code>
+<pre><code>   return 0;
+}</code></pre>
 
 <p>All our other code (at least to start with) will go between those two parts.</p>
 
