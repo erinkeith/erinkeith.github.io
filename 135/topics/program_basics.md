@@ -1,122 +1,53 @@
-<a href="#QuickReference">skip the explanation and go straight to the Quick Reference</a>
+<p>Skip the explanation and go straight to the <a href="https://erinkeith.github.io/135/quick_guides/program_basics">Quick Guide</a>.</p>
 <h2>In the beninging</h2>
 <p>Generally, the code we write in this class will run <a href="https://www.dictionary.com/browse/sequentially"><i>sequentially</i></a>, so we should have a well-defined, consistent starting point. Enter the <strong><span style="font-family: 'courier new', courier;">main</span></strong> function! (We'll learn about "functions" later, I promise!)</p>
 
 <p>Every program in C must include a <strong><span style="font-family: 'courier new', courier;">main</span></strong> function. While you may see some variations of the format in the wild, our programs will always start with</p>
-<h2>TODO: change to images (fix sizing?)</h2>
-<pre><code>int main(){</code></pre>
+
+![begin](https://github.com/user-attachments/assets/b59b5a94-c04e-4ed8-a672-b99e2c7b82f1)
 
 <p>and end with</p>
 
-<pre><code>   return 0;
-}</code></pre>
+![end](https://github.com/user-attachments/assets/7f7760f4-a856-4b7b-919e-0cb0007a4c0f)
 
 <p>All our other code (at least to start with) will go between those two parts.</p>
 
 <p>As far as "behavior" (what the computer does when we run our program), this code doesn't really <i>do</i> anything, but it is required and can be considered the "start" of our programs. So many questions about how to code are answered with "it depends", but this is something you can just memorize!</p> 
 
-<p><a name="PreferredFormat">The first code you should write in every program file should be:</a></p>
+![preferred](https://github.com/user-attachments/assets/47c859fc-6649-4f76-bd66-40a6331ce9b7)
 
-<pre><code>int main(){
+<p>If this is missing (or certain parts of it), you will see an error when trying to compile [<a href="#1">1</a>]. For example, compiling a program with: </p>
 
-   return 0;
-}</code></pre>
-
-<p>If this is missing, you will see an error when trying to compile<a href="#*">*</a>. For example, compiling a program with: </p>
-
-<pre><code>main(){
+<pre><code>int main{
 
    return 0;
 }</code></pre>
 
 <p>will result in: </p>
-<h2>TODO: syntax error!</h2>
 
-<a name="QuickReference">Quick Reference</a>
-<table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
-    <tbody>
-        <tr style="height: 28px; border-style: groove;">
-            <td style="width: 10%; border-style: none; height: 28px;"><strong>Level</strong></td>
-            <td style="width: 15%; border-style: none; height: 28px;"><strong>Components</strong></td>
-            <td style="width: 16.6508%; border-style: none; height: 28px;"><strong>Example</strong></td>
-            <td style="width: 16.6508%; border-style: none;"><strong>Explanation</strong></td>
-        </tr>
-        <tr style="height: 203px; border-style: groove;">
-            <td style="width: 10%; border-style: none; height: 203px;">Required Syntax</td>
-            <td style="width: 15%; border-style: none; height: 203px;">
-                <ul style="list-style-type: disc;">
-                    <li>preprocessor directives</li>
-                    <li>the main function</li>
-                </ul>
-            </td>
-            <td style="width: 16.6508%; border-style: none; height: 203px;"></td>
-            <td style="width: 16.6508%; border-style: none;">
-                <ul>
-                    <li>If you don't include the correct library for functions you call but don't write, there will be a compiler error.</li>
-                    <li>All programs must have exactly one main function to compile and run.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr style="height: 356px; border-style: groove;">
-            <td style="width: 10%; border-style: none; height: 356px;">Conventions</td>
-            <td style="width: 15%; border-style: none; height: 356px;">
-                <ul>
-                    <li>preprocessor directives
-                        <ul>
-                            <li><strong style="font-family: inherit; font-size: 1rem;">including "macros"</strong></li>
-                        </ul>
-                    </li>
-                    <li>the main function
-                        <ul>
-                            <li><strong style="font-family: inherit; font-size: 1rem;"><span style="font-family: 'courier new', courier;">return 0;</span> statement at the end</strong></li>
-                        </ul>
-                    </li>
-                </ul>
-            </td>
-            <td style="width: 16.6508%; border-style: none; height: 356px;"></td>
-            <td style="width: 16.6508%; border-style: none;">
-                <ul>
-                    <li>Macros are like labels which make values in your code easier to read
-                        <ul>
-                            <li>a variable is not the right tool since the value doesn't change</li>
-                            <li>use all caps so you can tell the difference!</li>
-                        </ul>
-                    </li>
-                    <li>The <strong style="font-family: inherit; font-size: 1rem;"><span style="font-family: 'courier new', courier;">return 0;</span></strong> statement tells the operating system that the program finished running without issues.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr style="border-style: groove;">
-            <td style="width: 10%; border-style: none;">Best Practices</td>
-            <td style="width: 15%; border-style: none;">
-                <ul>
-                    <li><strong>header comments</strong></li>
-                    <li>preprocessor directives
-                        <ul>
-                            <li><strong style="font-family: inherit; font-size: 1rem;">only include libraries that are used in that program</strong></li>
-                            <li>including "macros"</li>
-                        </ul>
-                    </li>
-                    <li>the main function
-                        <ul>
-                            <li><strong>consistent indentation</strong></li>
-                            <li>return 0 statement at the bottom</li>
-                        </ul>
-                    </li>
-                </ul>
-            </td>
-            <td style="width: 16.6508%; border-style: none;"></td>
-            <td style="width: 16.6508%; border-style: none;">
-                <ul>
-                    <li>Header comments give the reader more information, like who wrote the program.</li>
-                    <li>Including libraries that aren't used can cause performance issues.</li>
-                    <li>Indentation makes code easier by indicating where different blocks of code begin and end.</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<p><a name="*">*</a>Technically, you only need</p>
+![error](https://github.com/user-attachments/assets/235c00a6-14a2-4731-85fb-3cf3f578dedd)
+
+<p>because the parentheses are missing before the curly brace on line 1. Compiler errors are pretty cryptic, but with some practice they'll start to make some sense.</p>
+
+![error_notated](https://github.com/user-attachments/assets/81a11340-186f-4b6f-9435-8f22196ac473)
+
+<h2>Comments</h2>
+
+<p>Although code is also for communicating with humans, some things are easier in our every day language than in a programming language. Luckily, we can use <i>comments</i> for that. Any comments in our program files get ignored by the compiler, and therefore the computer. It's a great way to leave future-you a little note about what the heck you were thinking!</p>
+
+<p>There are two types of comments in C:</p>
+
+Single-line comments start with 2 forward slashes <code>//</code> and they end automatically at the end of the line.
+
+Multi-line comments start with a forward slash then asterisk <code>/\*</code> but only end after the reverse <code>*/</code> (an asterisk then forward slash).
+
+<p>In most cases, especially if you have a short note, single-line comments will do. In this class, you will be expected to include what we call "header comments" at the top of each program file. It's a good habit to get into and it will help the graders do their work! You can use whatever kind of comments you like, but an example of my preferred style is below.</p>
+
+<p><a name="PreferredFormat">The first code you should write in every program file should be:</a></p>
+
+![with_comments](https://github.com/user-attachments/assets/7e6b5e76-18a1-4e67-a6ae-05c2b49e747f)
+
+<p><a name="1">1</a> Technically, you only need</p>
 
 <pre><code>int main(){
 
