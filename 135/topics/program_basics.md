@@ -1,3 +1,4 @@
+<a href="#anchor">Quick Reference</a>
 <p>Generally, the code we write in this class will run <a href="https://www.dictionary.com/browse/sequentially"><i>sequentially</i></a>, so we should have a well-defined, consistent starting point. Enter the <strong><span style="font-family: 'courier new', courier;">main</span></strong> function! (We'll learn about "functions" later, I promise!)</p>
 
 <p>Every program in C must include a <strong><span style="font-family: 'courier new', courier;">main</span></strong> function. While you may see some variations of the format in the wild, our programs will always start with</p>
@@ -16,11 +17,12 @@
 <p>Many questions about how to code get a "it depends" answer, but this is something you can just memorize! The first code you should write in every program file should be:</p>
 
 <code>int main(){
-
-   return 0;
+    return 0;
 }</code>
 
-<p>The main function is required for every program and is the starting point of <strong>execution</strong> (when the program is running).</p>
+<p>If this is missing, you will see an error when trying to compile<a href="#anchor">*</a>. For example: </p>
+
+<a name="Quick Reference"></a>
 <table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
     <tbody>
         <tr style="height: 28px; border-style: groove;">
@@ -104,3 +106,10 @@
         </tr>
     </tbody>
 </table>
+<a name="*"></a>* <p>Technically, you only need 
+
+<code>int main(){
+
+}</code>
+
+but it's a best practice to include the return statement and grading will reflect that. Again, there are a couple of valid variations of this, but you'll see the format above in this class.</p>
