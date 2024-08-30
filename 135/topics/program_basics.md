@@ -1,4 +1,4 @@
-<a href="#Quick Reference">skip the explanation and go straight to the Quick Reference</a>
+<a href="#QuickReference">skip the explanation and go straight to the Quick Reference</a>
 <h2>In the beninging</h2>
 <p>Generally, the code we write in this class will run <a href="https://www.dictionary.com/browse/sequentially"><i>sequentially</i></a>, so we should have a well-defined, consistent starting point. Enter the <strong><span style="font-family: 'courier new', courier;">main</span></strong> function! (We'll learn about "functions" later, I promise!)</p>
 
@@ -15,7 +15,7 @@
 
 <p>As far as "behavior" (what the computer does when we run our program), this code doesn't really <i>do</i> anything, but it is required and can be considered the "start" of our programs. So many questions about how to code are answered with "it depends", but this is something you can just memorize!</p> 
 
-<p><a href="#Preferred Format">The first code you should write in every program file should be:</a></p>
+<p><a href="#PreferredFormat">The first code you should write in every program file should be:</a></p>
 
 <pre><code>int main(){
 
@@ -32,7 +32,7 @@
 <p>will result in: </p>
 <h2>TODO: syntax error!</h2>
 
-<a name="Quick Reference">Quick Reference</a>
+<a name="QuickReference">Quick Reference</a>
 <table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
     <tbody>
         <tr style="height: 28px; border-style: groove;">
@@ -122,4 +122,4 @@
 
 }</code></pre>
 
-<p>but it's a best practice to include the return statement and grading will reflect that. Again, there are a couple of valid variations of this, but in this class you'll see the <a name="*">preferred format</a>.</p>
+<p>but it's a best practice to include the return statement and grading will reflect that. Again, there are a couple of valid variations of this, but in this class you'll see the <a name="PreferredFormat">preferred format</a>.</p>
