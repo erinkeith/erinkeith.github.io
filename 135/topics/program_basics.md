@@ -1,4 +1,4 @@
-<a href="#anchor">Quick Reference</a>
+<a href="#Quick Reference">Quick Reference</a>
 <p>Generally, the code we write in this class will run <a href="https://www.dictionary.com/browse/sequentially"><i>sequentially</i></a>, so we should have a well-defined, consistent starting point. Enter the <strong><span style="font-family: 'courier new', courier;">main</span></strong> function! (We'll learn about "functions" later, I promise!)</p>
 
 <p>Every program in C must include a <strong><span style="font-family: 'courier new', courier;">main</span></strong> function. While you may see some variations of the format in the wild, our programs will always start with</p>
@@ -18,9 +18,9 @@
     return 0;
 }</code>
 
-<p>If this is missing, you will see an error when trying to compile<a href="#anchor">*</a>. For example: </p>
+<p>If this is missing, you will see an error when trying to compile<a href="#*">*</a>. For example: </p>
 
-<a name="Quick Reference"></a>
+<a name="Quick Reference">Quick Reference</a>
 <table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
     <tbody>
         <tr style="height: 28px; border-style: groove;">
@@ -104,7 +104,7 @@
         </tr>
     </tbody>
 </table>
-<a name="*"></a>* <p>Technically, you only need 
+<a name="*">*</a> <p>Technically, you only need 
 
 <code>int main(){
 }</code>
