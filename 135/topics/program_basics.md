@@ -107,7 +107,6 @@
 <a name="*"></a>* <p>Technically, you only need 
 
 <code>int main(){
-
 }</code>
 
 but it's a best practice to include the return statement and grading will reflect that. Again, there are a couple of valid variations of this, but you'll see the format above in this class.</p>
