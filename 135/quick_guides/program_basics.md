@@ -2,6 +2,10 @@
     td{
         vertical-align: top;
     }
+    img{
+        height: 50px;
+        width: 50px;
+    }
 </style>
 
 <h2>Program Basics Quick Guide</h2>
@@ -21,7 +25,7 @@
             </ul>
         </td>
         <td>
-            <img src="https://github.com/user-attachments/assets/d8ef632a-7a25-4399-afdf-3efd216fcba0" style="height:auto; width:auto">
+            <img src="https://github.com/user-attachments/assets/d8ef632a-7a25-4399-afdf-3efd216fcba0">
         </td>
         <td>
             <ul>
@@ -46,7 +50,7 @@
                 </li>
             </ul>
         </td>
-        <td><img src="https://github.com/user-attachments/assets/d99fc476-a933-4228-80ff-0a97b4fcb576" style="height:auto; width:auto"></td>
+        <td><img src="https://github.com/user-attachments/assets/d99fc476-a933-4228-80ff-0a97b4fcb576"></td>
         <td>
             <ul>
                 <li>Macros are like labels which make values in your code easier to read
@@ -78,7 +82,7 @@
                 </li>
             </ul>
         </td>
-        <td><img src="https://github.com/user-attachments/assets/b78a17e7-09b1-4af7-87f3-b2441124277d" style="height:auto; width:auto"></td>
+        <td><img src="https://github.com/user-attachments/assets/b78a17e7-09b1-4af7-87f3-b2441124277d"></td>
         <td>
             <ul>
                 <li>Header comments give the reader more information, like who wrote the program.</li>
