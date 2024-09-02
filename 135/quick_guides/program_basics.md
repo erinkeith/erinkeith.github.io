@@ -5,13 +5,13 @@
 </style>
 
 <h2>Program Basics Quick Guide</h2>
-<table>
+<table style="width:100%">
     <tbody>
         <tr>
-            <td><strong>Level</strong></td>
-            <td><strong>Components</strong></td>
-            <td><strong>Example</strong></td>
-            <td><strong>Explanation</strong></td>
+            <th style="width:15%">Level</td>
+            <th style="width:20%">Components</td>
+            <th style="width:35%">Example</td>
+            <th style="width:30%">Explanation</td>
         </tr>
         <tr>
             <td>Required Syntax</td>
