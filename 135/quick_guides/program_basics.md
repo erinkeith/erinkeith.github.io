@@ -3,7 +3,7 @@
         vertical-align: top;
     }
     img{
-        height: 150px;
+        height: auto;
         width: 150px;
     }
 </style>
