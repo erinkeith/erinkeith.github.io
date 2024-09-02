@@ -3,8 +3,8 @@
         vertical-align: top;
     }
     img{
-        height: 50px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
 </style>
 
