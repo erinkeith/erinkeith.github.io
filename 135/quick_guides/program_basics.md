@@ -1,31 +1,33 @@
-<a name="QuickReference">Quick Reference</a>
-<table style="border-collapse: collapse; width: 97.9535%; border-style: none; height: 587px;" border="1">
+<h2>Program Basics Quick Guide</h2>
+<table>
     <tbody>
-        <tr style="height: 28px; border-style: groove;">
-            <td style="width: 10%; border-style: none; height: 28px;"><strong>Level</strong></td>
-            <td style="width: 15%; border-style: none; height: 28px;"><strong>Components</strong></td>
-            <td style="width: 16.6508%; border-style: none; height: 28px;"><strong>Example</strong></td>
-            <td style="width: 16.6508%; border-style: none;"><strong>Explanation</strong></td>
+        <tr>
+            <td><strong>Level</strong></td>
+            <td><strong>Components</strong></td>
+            <td><strong>Example</strong></td>
+            <td><strong>Explanation</strong></td>
         </tr>
-        <tr style="height: 203px; border-style: groove;">
-            <td style="width: 10%; border-style: none; height: 203px;">Required Syntax</td>
-            <td style="width: 15%; border-style: none; height: 203px;">
-                <ul style="list-style-type: disc;">
+        <tr>
+            <td>Required Syntax</td>
+            <td>
+                <ul>
                     <li>preprocessor directives</li>
                     <li>the main function</li>
                 </ul>
             </td>
-            <td style="width: 16.6508%; border-style: none; height: 203px;"></td>
-            <td style="width: 16.6508%; border-style: none;">
+            <td>
+                ![required](https://github.com/user-attachments/assets/d8ef632a-7a25-4399-afdf-3efd216fcba0)
+            </td>
+            <td>
                 <ul>
                     <li>If you don't include the correct library for functions you call but don't write, there will be a compiler error.</li>
                     <li>All programs must have exactly one main function to compile and run.</li>
                 </ul>
             </td>
         </tr>
-        <tr style="height: 356px; border-style: groove;">
-            <td style="width: 10%; border-style: none; height: 356px;">Conventions</td>
-            <td style="width: 15%; border-style: none; height: 356px;">
+        <tr>
+            <td>Conventions</td>
+            <td>
                 <ul>
                     <li>preprocessor directives
                         <ul>
@@ -39,8 +41,8 @@
                     </li>
                 </ul>
             </td>
-            <td style="width: 16.6508%; border-style: none; height: 356px;"></td>
-            <td style="width: 16.6508%; border-style: none;">
+            <td></td>
+            <td>
                 <ul>
                     <li>Macros are like labels which make values in your code easier to read
                         <ul>
@@ -52,9 +54,9 @@
                 </ul>
             </td>
         </tr>
-        <tr style="border-style: groove;">
-            <td style="width: 10%; border-style: none;">Best Practices</td>
-            <td style="width: 15%; border-style: none;">
+        <tr>
+            <td>Best Practices</td>
+            <td>
                 <ul>
                     <li><strong>header comments</strong></li>
                     <li>preprocessor directives
@@ -71,8 +73,8 @@
                     </li>
                 </ul>
             </td>
-            <td style="width: 16.6508%; border-style: none;"></td>
-            <td style="width: 16.6508%; border-style: none;">
+            <td></td>
+            <td>
                 <ul>
                     <li>Header comments give the reader more information, like who wrote the program.</li>
                     <li>Including libraries that aren't used can cause performance issues.</li>
