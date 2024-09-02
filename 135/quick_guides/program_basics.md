@@ -11,10 +11,10 @@
 <h2>Program Basics Quick Guide</h2>
 <table style="width:100%">
     <tr>
-        <th style="width:15%">Level</th>
-        <th style="width:20%">Components</th>
-        <th style="width:35%">Example</th>
-        <th style="width:30%">Explanation</th>
+        <th >Level</th>
+        <th >Components</th>
+        <th style="width:40%">Example</th>
+        <th style="width:35%">Explanation</th>
     </tr>
     <tr>
         <td>Required Syntax</td>
