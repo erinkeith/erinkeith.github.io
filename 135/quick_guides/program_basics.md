@@ -1,3 +1,9 @@
+<style>
+    td{
+        vertical-align: top;
+    }
+</style>
+
 <h2>Program Basics Quick Guide</h2>
 <table>
     <tbody>
@@ -8,7 +14,7 @@
             <td><strong>Explanation</strong></td>
         </tr>
         <tr>
-            <td style="vertical-align:top;">Required Syntax</td>
+            <td>Required Syntax</td>
             <td>
                 <ul>
                     <li>preprocessor directives</li>
