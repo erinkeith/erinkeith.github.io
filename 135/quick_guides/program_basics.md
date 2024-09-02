@@ -8,7 +8,7 @@
             <td><strong>Explanation</strong></td>
         </tr>
         <tr>
-            <td>Required Syntax</td>
+            <td style="vertical-align:top;">Required Syntax</td>
             <td>
                 <ul>
                     <li>preprocessor directives</li>
