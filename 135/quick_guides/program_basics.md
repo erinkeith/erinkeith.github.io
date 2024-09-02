@@ -16,7 +16,7 @@
                 </ul>
             </td>
             <td>
-                ![required](https://github.com/user-attachments/assets/d8ef632a-7a25-4399-afdf-3efd216fcba0)
+                <img src="https://github.com/user-attachments/assets/d8ef632a-7a25-4399-afdf-3efd216fcba0"></img>
             </td>
             <td>
                 <ul>
@@ -41,7 +41,7 @@
                     </li>
                 </ul>
             </td>
-            <td></td>
+            <td><img src="https://github.com/user-attachments/assets/d99fc476-a933-4228-80ff-0a97b4fcb576"></img></td>
             <td>
                 <ul>
                     <li>Macros are like labels which make values in your code easier to read
@@ -73,7 +73,7 @@
                     </li>
                 </ul>
             </td>
-            <td></td>
+            <td><img src="https://github.com/user-attachments/assets/b78a17e7-09b1-4af7-87f3-b2441124277d"></img></td>
             <td>
                 <ul>
                     <li>Header comments give the reader more information, like who wrote the program.</li>
