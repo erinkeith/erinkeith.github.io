@@ -4,10 +4,10 @@
     }
     img{
         height: auto;
-        width: 150px;
+        width: 100%;
     }
 </style>
-
+<body>
 <h2>Program Basics Quick Guide</h2>
 <table style="width:100%">
     <tr>
@@ -92,3 +92,4 @@
         </td>
     </tr>
 </table>
+</body>
