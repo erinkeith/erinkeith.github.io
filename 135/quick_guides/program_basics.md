@@ -1,15 +1,18 @@
 <style>
+    table{
+        width:100%;
+    }
     td{
         vertical-align: top;
     }
     img{
         height: auto;
-        width: 100%;
+        max-width: 100%;
     }
 </style>
 <body>
 <h2>Program Basics Quick Guide</h2>
-<table style="width:100%">
+<table>
     <tr>
         <th >Level</th>
         <th >Components</th>
