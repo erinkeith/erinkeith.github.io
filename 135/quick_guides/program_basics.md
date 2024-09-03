@@ -1,5 +1,6 @@
 <style>
     table{
+        table-layout: fixed;
         width:100%;
     }
     td{
@@ -10,7 +11,7 @@
         max-width: 100%;
     }
 </style>
-<body>
+
 <h2>Program Basics Quick Guide</h2>
 <table>
     <tr>
@@ -95,4 +96,3 @@
         </td>
     </tr>
 </table>
-</body>
