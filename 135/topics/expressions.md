@@ -3,39 +3,36 @@
 <ul>
     <li><a href="#syntax">Syntax</a></li>
     <li><a href="#behavior">Behavior</a></li>
-    <ul><li><a href="#evaluation">Evaluation</a></li></ul>
-    <ul><li><a href="#side_effect">Side Effects</a></li></ul>
+    <ul><li><a href="#evaluation">Evaluation</a></li>
+        <li><a href="#side_effect">Side Effects</a></li></ul>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <p>Most of the operators we'll use are either "unary" or "binary"[<a href="#ternary">1</a>]. Unary means the operator works with one operand, while binary means the operator works with two operands.<br>
-<code>counter++</code><br>
+<br><code>counter++</code><br>
 is an expression where <code>counter</code> is the operand and <code>++</code> is the unary operator.[<a href="#post_pre">2</a>]<br>
-<code>counter + 1</code><br>
+<br><code>counter + 1</code><br>
 is an expression where <code>counter</code> is the first operand, <code>1</code> is the second operand, and <code>+</code> is the binary operator.[<a href="#infix">3</a>]<br> 
-<br>NOTE: I haven't included semicolons to emphasize that these are <i>expressions</i> not statements.<br><br>
+<br>NOTE: I haven't included semicolons to emphasize that these are <em>expressions</em> not statements.<br><br>
 </p>
-
 <h3><a name="behavior">Behavior</a></h3>
 <h4><a name="evaluation">Evaluation</a></h4>
 <p>
   Each of our example expressions,<br>
-  <code>counter++</code><br>
-and<br>
-  <code>counter + 1</code><br>
+  <code>counter++</code> and <code>counter + 1</code><br>
 "evaluate to" (or result in) a value that is 1 more than whatever is stored in <code>counter</code>. For example, if <code>counter</code> was storing a value of <code>0</code>, then these expressions "evaluate" to <code>1</code>.
 </p>
-<p>Because all of our code is being broken to simpler instructions, the computer has to evaluate individual operator expressions one at a time. When we have more complex expressions with multiple operators, we need to understand what order the operators are evaluated in to know what the resulting value will be. This is determined by operator <i>precedence</i> and <i>associativity</i>.<br><br>
-  Operator precedence is the priority operators are given to be evaluated first. <i>Arithmetic</i> operators generally follow a PEMDAS approach.<br>
-  Associativity applies to multiple operators of the same precedence. Generally, binary operators have left to right associativity.<br>
+<p>Because all of our code is being broken to simpler instructions, the computer has to evaluate individual operator expressions one at a time. When we have more complex expressions with multiple operators, we need to understand what order the operators are evaluated in to know what the resulting value will be. This is determined by operator <em>precedence</em> and <em>associativity</em>.<br><br>
+  Operator precedence is the priority operators are given to be evaluated first. <em>Arithmetic</em> operators generally follow a PEMDAS approach.<br><br>
+  Associativity applies to multiple operators of the same precedence. Generally, binary operators have left to right associativity.<br><br>
   Here's a breakdown of relevant <a href="https://erinkeith.github.io/135/quick_guides/operators">Precedence and Associativity</a>
 </p>
 <h4><a name="side_effect">Side Effects</a></h4>
-<p>A side effect is behavior in your programming that happens in addition to evaluation. Often, side effects make a change or modify a variable. For example,<br>
+<p>A side effect is behavior in your programming that happens in addition to evaluation. Often, side effects make a change or modify a variable. For example, the expression in this<br>
 <code>counter = 0;</code><br>
-evaluates to <code>0</code> but we use the assignment operator for its <i>side effect</i>, which is to change the value of <code>counter</code> to <code>0</code>.<br>
-
+statement evaluates to <code>0</code> but we use the assignment operator for its <em>side effect</em>, which is to change the value of <code>counter</code> to <code>0</code>.<br>
+Similarly, the expression in this<br>
 <code>counter++;</code><br>
-evaluates to <code>1</code> but we use the postfix increment operator for its <i>side effect</i>, which is to increase the value of <code>counter</code> from <code>0</code> to <code>1</code>.<br>
+statement evaluates to <code>1</code> but we use the postfix increment operator for its <em>side effect</em>, which is to increase the value of <code>counter</code> from <code>0</code> to <code>1</code>.<br><br>
 
 The postfix and assignment operators (both simple and compound) are generally used for their side effects and any "evaluation" is ignored.
 </p>
