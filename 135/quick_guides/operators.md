@@ -11,7 +11,7 @@
 </thead>
 <tbody>
 <tr>
-<td><code>[</code> <code>]</code> <code>(</code> <code>)</code> <code>.</code> <code>-&gt;</code><br><code>++</code> <code>--</code> (postfix)</td>
+<td><code>++</code> <code>--</code> (postfix)</td>
 <td>Expression</td>
 <td>Left to right</td>
 </tr>
