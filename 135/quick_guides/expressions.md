@@ -24,7 +24,7 @@
         <td><strong>arithmetic</strong></td>
         <td>doing <strong><em>math</em></strong> with values</td>
         <td>
-            <img src="">
+            <img src="https://github.com/user-attachments/assets/502c7fb2-1f52-4fe8-afea-ebe83f45fad8">
         </td>
         <td>
           <ul>
@@ -42,7 +42,7 @@
     <tr>
         <td><strong>relational</strong></td>
         <td><strong><em>comparing</em></strong> values</td>
-        <td><img src=""></td>
+        <td><img src="https://github.com/user-attachments/assets/f7f0a4a4-35df-4c51-ac64-5d42e4516ad8"></td>
         <td>
           <ul>
               <li><code>< > <= >= == !=</code></li>
@@ -54,7 +54,7 @@
     <tr>
         <td><strong>logical</strong></td>
         <td>combining multiple <strong><em>truths</em></strong></td>
-        <td><img src=""></td>
+        <td><img src="https://github.com/user-attachments/assets/9f28c844-247a-487b-a604-0190915a3448"></td>
         <td>
           <ul>
               <li><code>&& ||</code></li>
