@@ -2,9 +2,9 @@
 <p>The acronym "IO" stands for <strong>I</strong>nput <strong>O</strong>utput. "Formatted IO" refers to either arranging the structure of text for output or preparing to receive information as input. We'll be <em>output</em>ing information from our programs to the terminal window screen and <em>input</em>ing information into our program from the keyboard.</p>
 <ul>
     <li><a href="#syntax">Syntax</a></li>
+    <li><a href="#behavior">Behavior</a></li>
     <ul><li><a href="#printf"><code>printf</code></a></li>
         <li><a href="#scanf"><code>scanf</code></a></li></ul>    
-    <li><a href="#behavior">Behavior</a></li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <h4>The <code>stdio</code> Library</h4>
@@ -14,27 +14,6 @@ This tells the compiler to look in the library when it encounters certain functi
 <img src="https://github.com/user-attachments/assets/a9b317c8-9632-43e8-90d1-a9f585b1b27b">
 It might look intimidating, but I've outlined in red the helpful part of the error messages. Once the correct library is included, you can use the <code>printf</code> function for output and the <code>scanf</code> function for input.<br>
 </p>
-<h4><a name="printf"><code>printf</code></a></h4>
-<p>The <code>printf</code> function sends everything in the <a href="#format_string">format string</a> to be displayed on the screen. For example, running a program with the line<br>
-  <code>printf("Hello World!");</code><br>
-would result in 
-  <img src="https://github.com/user-attachments/assets/c3fd5561-f5bd-4d5c-82c4-897cfb148ca2"> 
-being displayed to the screen.<br><br>
-Notice how the very next thing (the terminal prompt) is displayed right next to our output! If we want it to display on the next line, we need to add some "blank space". The <strong>Enter</strong> key would do that if we were typing in a text document, but for formatted IO we need a special symbol, called the <em><strong>endline</strong></em> or <em><strong>newline</strong></em> character: <code>\n</code>. Adding that to the end of our format string changes the behavior of the program!<br>
-  <code>printf("Hello World!<strong>\n</strong>");</code><br>
-  produces <img src="https://github.com/user-attachments/assets/0c373b88-c4c9-4e65-934d-00a03db10928">. The <em><strong>endline</strong></em> character is one of many "escaped" characters that can be used in formatted IO: <a href="https://en.wikipedia.org/wiki/Escape_sequences_in_C#Escape_sequences">https://en.wikipedia.org/wiki/Escape_sequences_in_C#Escape_sequences</a>.</p>
-<p>
-  To include values, especially those stored in variables, a placeholder called a <a href="#conversion_specifier">conversion specifier</a> must be included in the <em>format string</em> and a corresponding variable (or value or expression) must be listed after of the format string.<br><br>
-  In the <code>printf</code> function, the value is "read" and replaces the corresponding conversion specifier. For example:<br>
-<pre><code>int age = 44;
-printf("Your age is %d.\n", age);</code></pre>
-would display <img src=""> when the code is run.<br><br>
-Notice that the value stored in the <code>age</code> variable is read and replaces the <code>%d</code> conversion specifier when the code is run. If you want to display more values, you must add more conversion specifiers and values:<br>
-<pre><code>int age = 44;
-printf("Your age is %d. You will be %d in 10 years\n", age, age + 10);</code></pre>
-would display <img src=""> when the code is run. The first value <code>age</code> replaces the first conversion specifier and the second value <code>age + 10</code> replaces the second conversion specifier. <br><br>
-</p>
-<h4><a name="scanf"><code>scanf</code></a></h4>
 <h4>Vocabulary</h4>
 <p><a name="format_string">format string</a></p>
 The <em>format string</em> starts with the first double quote inside the parenthesis and ends with the second one. The function uses what's inside the pair of double quotes to know how things should be input or output.
@@ -59,3 +38,26 @@ A <em>conversion specifier</em> is like a placeholder within the format string. 
   </tr>
 </table>
 </p>
+<h3><a name="behavior">Behavior</a></h3>
+<h4><a name="printf"><code>printf</code></a></h4>
+<p>The <code>printf</code> function sends everything in the <a href="#format_string">format string</a> to be displayed on the screen. For example, running a program with the line<br>
+  <code>printf("Hello World!");</code><br>
+would result in<br>
+  <img src="https://github.com/user-attachments/assets/c3fd5561-f5bd-4d5c-82c4-897cfb148ca2"><br>
+being displayed to the screen.<br><br>
+Notice how the very next thing (the terminal prompt) is displayed right next to our output! If we want it to display on the next line, we need to add some "blank space". The <strong>Enter</strong> key would do that if we were typing in a text document, but for formatted IO we need a special symbol, called the <em><strong>endline</strong></em> or <em><strong>newline</strong></em> character: <code>\n</code>. Adding that to the end of our format string changes the behavior of the program!<br>
+  <code>printf("Hello World!<strong>\n</strong>");</code><br>
+  produces<br>
+    <img src="https://github.com/user-attachments/assets/0c373b88-c4c9-4e65-934d-00a03db10928">.<br>
+    The <em><strong>endline</strong></em> character is one of many "escaped" characters that can be used in formatted IO: <a href="https://en.wikipedia.org/wiki/Escape_sequences_in_C#Escape_sequences">https://en.wikipedia.org/wiki/Escape_sequences_in_C#Escape_sequences</a>.</p>
+<p>
+  To include values, especially those stored in variables, a placeholder called a <a href="#conversion_specifier">conversion specifier</a> must be included in the <em>format string</em> and a corresponding variable (or value or expression) must be listed after of the format string.<br><br>
+  In the <code>printf</code> function, the value is "read" and replaces the corresponding conversion specifier. For example:<br>
+<pre><code>int age = 44;
+printf("Your age is %d.\n", age);</code></pre>
+would display <img src=""> when the code is run.<br><br>
+Notice that the value stored in the <code>age</code> variable is read and replaces the <code>%d</code> conversion specifier when the code is run. If you want to display more values, you must add more conversion specifiers and values:<br>
+<pre><code>int age = 44;
+printf("Your age is %d. You will be %d in 10 years\n", age, age + 10);</code></pre>
+would display <img src=""> when the code is run. The first value <code>age</code> replaces the first conversion specifier and the second value <code>age + 10</code> replaces the second conversion specifier.</p>
+<h4><a name="scanf"><code>scanf</code></a></h4>
