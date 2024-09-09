@@ -15,10 +15,11 @@ This tells the compiler to look in the library when it encounters certain functi
 It might look intimidating, but I've outlined in red the helpful part of the error messages. Once the correct library is included, you can use the <code>printf</code> function for output and the <code>scanf</code> function for input.<br>
 </p>
 <h4>Vocabulary</h4>
-<p><a name="format_string">format string</a></p>
-The <em>format string</em> starts with the first double quote inside the parenthesis and ends with the second one. The function uses what's inside the pair of double quotes to know how things should be input or output.
-<p><a name="conversion_specifier">conversion specifier</a><br>
-A <em>conversion specifier</em> is like a placeholder within the format string. It holds the place of whatever variable (or value) you want to replace it during runtime.
+<a name="format_string">format string</a>
+<p>The <em>format string</em> starts with the first double quote inside the parenthesis and ends with the second one. The function uses what's inside the pair of double quotes to know how things should be input or output.</p>
+<a name="conversion_specifier">conversion specifier</a>
+<p>A <em>conversion specifier</em> is like a placeholder within the format string. It holds the place of whatever variable (or value) you want to replace it during runtime. Those variables are listed after the format string, separated by commas, and correspond conversion specifiers by position (first conversion specifier matches with first variable).<br><br> 
+    <em><strong>The conversion specifier should match the data type of the value</strong></em>.</p>
 <table>
   <tr>
     <th>Data Type</th>
@@ -37,7 +38,7 @@ A <em>conversion specifier</em> is like a placeholder within the format string. 
     <td><code>%c</code></td>
   </tr>
 </table>
-</p>
+
 <h3><a name="behavior">Behavior</a></h3>
 <h4><a name="printf"><code>printf</code></a></h4>
 <p>The <code>printf</code> function sends everything in the <a href="#format_string">format string</a> to be displayed on the screen. For example, running a program with the line<br>
@@ -45,14 +46,14 @@ A <em>conversion specifier</em> is like a placeholder within the format string. 
 would result in<br>
   <img src="https://github.com/user-attachments/assets/c3fd5561-f5bd-4d5c-82c4-897cfb148ca2"><br>
 being displayed to the screen.<br><br>
-Notice how the very next thing (the terminal prompt) is displayed right next to our output! If we want it to display on the next line, we need to add some "blank space". The <strong>Enter</strong> key would do that if we were typing in a text document, but for formatted IO we need a special symbol, called the <em><strong>endline</strong></em> or <em><strong>newline</strong></em> character: <code>\n</code>. Adding that to the end of our format string changes the behavior of the program!<br>
+Notice how the very next thing (the terminal prompt) is displayed right next to our output! If we want it to display on the next line, we need to add some "blank space". The <strong>Enter</strong> key would do that if we were typing in a text document, but for formatted IO we need a special symbol, called the <em><strong>endline</strong></em> or <em><strong>newline</strong></em> character: <code>\n</code>.<br><br>
+Adding that to the end of our format string changes the behavior of the program!<br>
   <code>printf("Hello World!<strong>\n</strong>");</code><br>
   produces<br>
     <img src="https://github.com/user-attachments/assets/0c373b88-c4c9-4e65-934d-00a03db10928">.<br>
     The <em><strong>endline</strong></em> character is one of many "escaped" characters that can be used in formatted IO: <a href="https://en.wikipedia.org/wiki/Escape_sequences_in_C#Escape_sequences">https://en.wikipedia.org/wiki/Escape_sequences_in_C#Escape_sequences</a>.</p>
 <p>
-  To include values, especially those stored in variables, a placeholder called a <a href="#conversion_specifier">conversion specifier</a> must be included in the <em>format string</em> and a corresponding variable (or value or expression) must be listed after of the format string.<br><br>
-  In the <code>printf</code> function, the value is "read" and replaces the corresponding conversion specifier. For example:<br>
+  To display values, especially those stored in variables, a placeholder called a <a href="#conversion_specifier">conversion specifier</a> must be included in the <em>format string</em> and a corresponding variable (or value or expression) must be listed after the format string. In the <code>printf</code> function, the value is "read" and replaces the corresponding conversion specifier. For example:<br>
 <pre><code>int age = 44;
 printf("Your age is %d.\n", age);</code></pre>
 would display <img src=""> when the code is run.<br><br>
@@ -61,3 +62,5 @@ Notice that the value stored in the <code>age</code> variable is read and replac
 printf("Your age is %d. You will be %d in 10 years\n", age, age + 10);</code></pre>
 would display <img src=""> when the code is run. The first value <code>age</code> replaces the first conversion specifier and the second value <code>age + 10</code> replaces the second conversion specifier.</p>
 <h4><a name="scanf"><code>scanf</code></a></h4>
+<p>The <code>scanf</code> function also uses conversion specifiers in a format string, but <em><strong>NOTHING IN THE FORMAT STRING IS EVER DISPLAYED!</strong></em>. The conversion specifiers in the format string just prepare the program to receive information from the keyboard.
+</p>
