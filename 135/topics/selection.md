@@ -2,15 +2,14 @@
 <p><strong>Selection</strong> allows us to include choices in our program. Is it going to rain? Let's grab an umbrella!</p>
 <ul>
     <li><a href="#syntax">Syntax</a>
-    <ul>
-        <li><a href="#expressions">Expressions</a></li>
+    <ul><li><a href="#expressions">Expressions</a></li>
         <li><a href="#if_else"><code>if</code> and <code>else</code></a></li>
-        <li><a href="#switch"><code>switch</code></a></li>
-    </ul></li>
+        <li><a href="#switch"><code>switch</code></a></li></ul>
+    </li>
     <li><a href="#behavior">Behavior</a>
-    <ul>
-        <li><a href="#expression_behavior">Expressions</a></li>
-        <li><a href="#truth">Truth Tables</a></li>
+    <ul><li><a href="#expression_behavior">Expressions</a></li>
+        <li><a href="#truth">Truth Tables</a></li></ul>
+    </li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <h4><a name="expressions">Relational and Logical Expressions</a></h4>
