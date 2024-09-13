@@ -2,9 +2,10 @@
 <p>Expressions combine an operator (symbol representing behavior) with one or more operands (values). The expression results in another value, through a process we call "evaluation".</p>
 <ul>
     <li><a href="#syntax">Syntax</a></li>
-    <li><a href="#behavior">Behavior</a></li>
+    <li><a href="#behavior">Behavior</a>
     <ul><li><a href="#evaluation">Evaluation</a></li>
         <li><a href="#side_effect">Side Effects</a></li></ul>
+    </li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <p>Most of the operators we'll use are either "unary" or "binary"[<a href="#ternary">1</a>]. Unary means the operator works with one operand, while binary means the operator works with two operands.<br>
