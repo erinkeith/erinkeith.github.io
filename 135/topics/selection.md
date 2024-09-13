@@ -56,7 +56,35 @@ else{
 If there's no action to take when it's not raining, then we don't need an <code>else</code> block.<br>
 </p>
 <h4><a name="switch"><code>switch</code></a></h4>
+<p><code>switch</code> statements provide a convenient format when decisions are made based on specific integer or character values. The block starts with the <code>switch</code> keyword and the variable whose value is going to be checked. Then there is a list of "cases" for each useful value. Here's a generic form:<br>
+<pre><code>switch(expression){ //the expression must be an int or char variable
+    case x:
+        //code to execute
+        break;
+    case y:
+        //different code to execute
+        break;
+    default:
+        //code to execute if no other cases are true
+}</code></pre>
 
+And a more specific example:<br>
+<pre><code>switch(currentTemp){
+    case 32:
+        print("It's freezing!\n");
+        break;
+    case 451:
+        printf("The temperature at which books burn.\n");
+        break;
+    case 212:
+        printf("I'm boiling!\n");
+        break;
+    default:
+        printf("Nothing interesting about this temperature.\n");
+}</code></pre>
+
+<br>Since there aren't any curly braces after the <code>case</code> value, the <code>break</code> statement is what keeps the code from continue to execute.<br>
+</p>
 <h3><a name="behavior">Behavior</a></h3>
 <h4><a name="expression_behavior">Relational and Logical Expressions</a></h4>
 <p>Relational operators should look familiar, as they mirror their mathematical counterparts, however logical operators are often a new concept.
