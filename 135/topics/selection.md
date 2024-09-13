@@ -9,11 +9,11 @@
 <p>for relational and logical operator precedence and associativity, please see <a href="https://erinkeith.github.io/135/quick_guides/operators">Operator Precedence and Associativity</a></p>
 <p>Most choices depend on comparing conditions or whether or not certain conditions are true. These relationships and conditions can be <em>evaluated</em> through relational and logical expressions.<br>
 For example, if the temperature outside is below a certain threshold we would want to grab a jacket. The relationship between too cold and the current temperature could be determined with the following expression:<br>
-<code>currentTemp &lt tooCold</code><br><br>
+<code>currentTemp < tooCold</code><br><br>
 Relational and logical expressions always evaluate to <em>true</em> or <em>false</em> (although the C programming language uses <code>1</code> and <code>0</code> instead) and because they have lower precedence than arithmetic operators, the expressions can get quite complex:<br>
-<code>currentTemp - 10 &lt tooCold</code><br><br>
+<code>currentTemp - 10 < tooCold</code><br><br>
 Logical operators have even lower precedence than relational operators!<br>
-<code>currentTemp &lt tooCold &amp&amp currentTemp > 32</code><br><br>
+<code>currentTemp < tooCold && currentTemp > 32</code><br><br>
 also checks that the current temperature is above freezing.
 </p>
 <h4><code>if</code> and <code>else</code></h4>
@@ -22,10 +22,10 @@ also checks that the current temperature is above freezing.
 <h4>Relational and Logical Expressions</h4>
 <p>Relational operators should look familiar, as they mirror their mathematical counterparts, however logical operators are often a new concept.
 <ul>
-    <li>AND <code>&amp&amp</code> expressions evaluate to <em>true</em> or <code>1</code> when both conditions are true.</li>
+    <li>AND <code>&&</code> expressions evaluate to <em>true</em> or <code>1</code> when both conditions are true.</li>
     <li>OR <code>||</code> expressions evaluate to <em>false</em> or <code>0</code> when both conditions are false.</li>
 </ul>
-This can be illustrated through real life. For example, if I were to say that we're in CS 135 <em>AND</em> Erin is teaching, that's a true statement. However, if we used some other course, the statement would be false. If we referred to some other instructor, it would also be false. This property is often represented in something called a <strong>Truth Table</strong>.[<a href="#generic">generic forms below</a>]<br><br>
+This can be illustrated through real life. For example, if I were to say that we're in CS 135 <em>AND</em> Erin is teaching, that's a true statement. However, if we used some other course, the statement would be false. If we referred to some other instructor, it would also be false. This property is often represented in something called a <strong>Truth Table</strong>. [<a href="#generic">generic forms below</a>]<br><br>
 The <strong>AND</strong> truth table:
 <table>
 <thead>
@@ -63,9 +63,8 @@ The <strong>OR</strong> truth table:
 </table>
 </p>
 
-<a name="generic">Generic Truth Tables</a>.<br>
-<strong>p</strong> is the first statment or <em>clause</em><br>
-<strong>q</strong> is the second statment or <em>clause</em><br>
+<a name="generic">Generic Truth Tables</a><br>
+<strong>p</strong> is the first statment or <em>clause</em> and <strong>q</strong> is the second statment or <em>clause</em><br>
 <h4>AND</h4>
 <table>
 <thead>
