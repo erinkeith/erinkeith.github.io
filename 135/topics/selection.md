@@ -22,7 +22,7 @@ also checks that the current temperature is above freezing.
     printf("Don't forget a jacket!\n");
 }</code></pre>
 
-When there's an alternative path to the true condition which must be taken, use the <code>else</code> keyword and curly braces for that block of code. Notice! There is no expression to evaluate after the <code>else</code>!<br>
+<br>When there's an alternative path to the true condition which must be taken, use the <code>else</code> keyword and curly braces for that block of code. <strong>Note!</strong> There is no expression to evaluate after the <code>else</code>!<br>
 <pre><code>if(currentTemp < tooCold){
     printf("Don't forget a jacket!\n");
 }
@@ -30,7 +30,7 @@ else{
     printf("So fresh and so clean!\n");
 }</code></pre>
 
-When there's multiple alternative pathes, use a "cascading" <code>if/else</code> format:<br>
+<br>When there's multiple alternative pathes, use a "cascading" <code>if/else</code> format:<br>
 <pre><code>if(currentTemp < 32){
     printf("Oof, too cold! Stay home.\n");
 }
@@ -41,9 +41,7 @@ else{
     printf("So fresh and so clean!\n");
 }</code></pre>
 </p>
-<p>There are a ton of different ways to use them, depending on the problem and how you approach it.<br><br>
-
-<code>if</code> statements can be used on their own. When the expression between the parenthesis evaluates to <code>1</code> (<em>true</em>), the code between the parenthesis executes:
+<p>There are a ton of different ways to use them, depending on the problem and how you approach it. <code>if</code> statements can even be used on their own. As long as the expression between the parenthesis evaluates to <code>1</code> (<em>true</em>), the code between the parenthesis executes:
 <pre><code>if(raining == 'y' || raining == 'Y'){
     umbrella = 1;
 }</code></pre>
