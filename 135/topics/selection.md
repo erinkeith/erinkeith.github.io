@@ -68,10 +68,10 @@ If there's no action to take when it's not raining, then we don't need an <code>
         //code to execute if no other cases are true
 }</code></pre>
 
-And a more specific example:<br>
+<br>And a more specific example:<br>
 <pre><code>switch(currentTemp){
     case 32:
-        print("It's freezing!\n");
+        printf("It's freezing!\n");
         break;
     case 451:
         printf("The temperature at which books burn.\n");
@@ -83,7 +83,21 @@ And a more specific example:<br>
         printf("Nothing interesting about this temperature.\n");
 }</code></pre>
 
-<br>Since there aren't any curly braces after the <code>case</code> value, the <code>break</code> statement is what keeps the code from continue to execute.<br>
+<br>Since there aren't any curly braces after the <code>case</code> value, the <code>break</code> statement is what keeps the code from continuing to execute. Sometimes it's useful to take advantage of that feature and omit the <code>break</code> statements!<br>
+<pre><code>switch(studentGrade){
+    case 'A':
+    case 'B':
+    case 'C':
+        printf("Have fun in 202!\n");
+        break;
+    case 'D':
+    case 'F':
+        printf("See you next semester!\n");
+        break;
+    default:
+        printf("Invalid grade.\n");
+}</code></pre>
+<br>If the <code>studentGrade</code> variable stores either <code>A</code>, <code>B</code>, or <code>C</code> then <code>Have fun in 202!</code> will display to the screen. While this allows for using a <code>switch</code> for a range, I'd only recommend it if there are very few possible matches.<br>
 </p>
 <h3><a name="behavior">Behavior</a></h3>
 <h4><a name="expression_behavior">Relational and Logical Expressions</a></h4>
