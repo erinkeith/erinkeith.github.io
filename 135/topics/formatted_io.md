@@ -2,9 +2,10 @@
 <p>The acronym "IO" stands for <strong>I</strong>nput <strong>O</strong>utput. "Formatted IO" refers to either arranging the structure of text for output or preparing to receive information as input. We'll be <em>output</em>ing information from our programs to the terminal window screen and <em>input</em>ing information into our program from the keyboard.</p>
 <ul>
     <li><a href="#syntax">Syntax</a></li>
-    <li><a href="#behavior">Behavior</a></li>
+    <li><a href="#behavior">Behavior</a>
     <ul><li><a href="#printf"><code>printf</code></a></li>
-        <li><a href="#scanf"><code>scanf</code></a></li></ul>    
+        <li><a href="#scanf"><code>scanf</code></a></li></ul>
+    </li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <h4>The <code>stdio</code> Library</h4>
