@@ -17,7 +17,40 @@ Logical operators have even lower precedence than relational operators!<br>
 also checks that the current temperature is above freezing.
 </p>
 <h4><code>if</code> and <code>else</code></h4>
+<p>These expressions can be used in <code>if/else</code> statements to determine which blocks (parts) of code to execute, resulting in our programs <em>behaving</em> in different ways! These start with the <code>if</code> keyword, are followed by the expression to evaluate in the parenthesis, and should include curly braces surrounding the block of code you want executed:<br>
+<pre><code>if(currentTemp < tooCold){
+    printf("Don't forget a jacket!\n");
+}</code></pre>
+
+When there's an alternative path to the true condition which must be taken, use the <code>else</code> keyword and curly braces for that block of code. Notice! There is no expression to evaluate after the <code>else</code>!<br>
+<pre><code>if(currentTemp < tooCold){
+    printf("Don't forget a jacket!\n");
+}
+else{
+    printf("So fresh and so clean!\n");
+}</code></pre>
+
+When there's multiple alternative pathes, use a "cascading" <code>if/else</code> format:<br>
+<pre><code>if(currentTemp < 32){
+    printf("Oof, too cold! Stay home.\n");
+}
+else if(currentTemp < tooCold){
+    printf("Don't forget a jacket!\n");
+}
+else{
+    printf("So fresh and so clean!\n");
+}</code></pre>
+</p>
+<p>There are a ton of different ways to use them, depending on the problem and how you approach it.<br><br>
+
+<code>if</code> statements can be used on their own. When the expression between the parenthesis evaluates to <code>1</code> (<em>true</em>), the code between the parenthesis executes:
+<pre><code>if(raining == 'y' || raining == 'Y'){
+    umbrella = 1;
+}</code></pre>
+If there's no action to take when it's not raining, then we don't need an <code>else</code> block.<br>
+</p>
 <h4><code>switch</code></h4>
+
 <h3><a name="behavior">Behavior</a></h3>
 <h4>Relational and Logical Expressions</h4>
 <p>Relational operators should look familiar, as they mirror their mathematical counterparts, however logical operators are often a new concept.
