@@ -6,7 +6,6 @@
   If we don't figure these things out, we either can't start running or will never stop (my personal nightmare)!</p>
 <ul>
     <li><a href="#syntax">Syntax</a></li>
-    <li><a href="#behavior">Behavior</a></li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <p>In addition to the <u>loop body</u>, there are 3 components that should be included in each loop:
@@ -19,7 +18,7 @@
       <ul><li>In our real-life example, every iteration could be a "step" and we could increase the <code>stepsFromHome</code> variable by <code>1</code> step each time.</li></ul></li>
   </ul>
 </p>
-<p>There are 3 types of loops in C, which rearrange these parts to make them more ideal for certain circumstances (as outlined in the <a href="#behavior">Behavior</a> section below).</p>
+<p>There are 3 types of loops in C, which rearrange these parts to make them more ideal for certain circumstances.</p>
 <h4><code>for</code></h4>
 <p>The <code>for</code> loop conveniently combines the required expressions in between the parenthesis. The general format is<br>
 <pre><code>for(expression1; expression2; expression3){
@@ -49,5 +48,3 @@ and again, the <u>initialization</u> expression is assumed to be included before
 Our real-life example would look like this:<br>
 <img src="https://github.com/user-attachments/assets/b02a4029-8d4a-402f-8e0a-33d9cb73a02a" width="360">
 <br></p>
-
-<h3><a name="behavior">Behavior</a></h3>
