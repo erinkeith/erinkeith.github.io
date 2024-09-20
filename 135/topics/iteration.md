@@ -1,0 +1,69 @@
+<h2>Iteration</h2>
+<p><strong>Iteration</strong> allows us to repeat blocks of code a bunch of times in a row.<br><br>
+  <strong>Loops</strong> are used to implement <em>iteration</em>. To craft a loop, we must know what <u>behavior</u> or action(s) we're repeating <em><strong>and</strong></em> what <u>state</u> or value(s) is changing over time.
+<p>A real-life example is <u>going for a run</u>. The process we're repeating is moving one leg in front of the other more quickly than a walk. The "state" (or value) that changes over time is <em>distance</em>. 
+  This is important because before <u>going for a run</u>, we need to decide where our run starts and ends. Then, as long as we haven't reached our destination (and can still breath) we keep running! 
+  If we don't figure these things out, we either can't start running or will never stop (my personal nightmare)!</p>
+<ul>
+    <li><a href="#syntax">Syntax</a></li>
+    <li><a href="#behavior">Behavior</a>
+    <ul><li><a href="#stuff">Stuff</a></li>
+        <li><a href="#another">Another</a></li></ul
+    </li>
+    <li><a href="#metaphor">Metaphors</a></li>
+</ul>
+<h3><a name="syntax">Syntax</a></h3>
+<p>In addition to the <u>body</u>, there are 3 components (<strong>expressions</strong>) that should be included in each loop: initialization (<strong>start</strong>), controlling (<strong>continue</strong>), and update (<strong>change</strong>). 
+  <ul>
+    <li>The <u>initialization</u> expression allows to assign some starting value to a variable that's going to change while the loop is running.
+      <ul><li>In our real-life example, we could set a <code>stepsFromHome</code> variable to <code>0</code>.</li></ul></li>
+    <li>The <u>controlling</u> expression generally compares the variable's value to another value that will tell us when to stop.
+      <ul><li>In our real-life example, we would continue as long as our <code>stepsFromHome</code> variable was less than <code>3000</code> steps.</li></ul></li>
+    <li>The <u>update</u> expression should change the value of the variable at some point during each iteration.
+      <ul><li>In our real-life example, every iteration could be a "step" and we could increase the <code>stepsFromHome</code> variable by <code>1</code> step each time.</li></ul></li>
+  </ul>
+</p>
+<p>There are 3 types of loops in C, which rearrange these parts to make them more ideal for certain circumstances (as outlined in the <a href="#behavior">Behavior</a> section below).</p>
+<h4><code>for</code></h4>
+<p>The <code>for</code> loop conveniently combines the required expressions in between the parenthesis. The general format is<br>
+<pre><code>for(expression1; expression2; expression3){
+  //loop body
+}</code></pre>
+where <code>expression1</code> is the <u>initialization</u> expression, <code>expression2</code> is the <u>controlling</u> expression, and <code>expression3</code> is the <u>update</u> expression. Our real-life example would look like this:<br>
+<pre><code>for(stepsFromHome = 0; stepsFromHome < 3000; stepsFromHome++){
+  printf("<huffs> I'm running! <puffs>\n");
+}</code></pre>
+</p>
+<h4><code>while</code></h4>
+<p>The <code>while</code> loop includes the controlling expression between the parenthesis. The general format is<br>
+<pre><code>while(control expression){
+  //loop body, which should include the update expression
+}</code></pre>
+and the <u>initialization</u> expression is assumed to be included before the loop. Our real-life example would look like this:<br>
+<pre><code>stepsFromHome = 0;
+while(stepsFromHome < 3000){
+  printf("<huffs> I'm running! <puffs>\n");
+  stepsFromHome++;
+}</code></pre>
+</p>
+<h4><code>do while</code></h4>
+<p>The <code>do while</code> loop moves the controlling expression to <em>after</em> the loop body. The general format is<br>
+<pre><code>do{
+  //loop body, which should include the update expression
+}while(control expression);</code></pre>
+and again, the <u>initialization</u> expression is assumed to be included before the loop. DON'T FORGET THE SEMICOLON! Our real-life example would look like this:<br>
+<pre><code>stepsFromHome = 0;
+do{
+  printf("<huffs> I'm running! <puffs>\n");
+  stepsFromHome++;
+}while(stepsFromHome < 3000);</code></pre>
+</p>
+
+
+<h3><a name="behavior">Behavior</a></h3>
+<h4><a name="stuff">Stuff</a></h4>
+<h4><a name="another">Another</a></h4>
+[<a href="#note">1</a>]
+<h3><a name="metaphor">Metaphors</a></h3>
+
+<a name="note">1</a>. Explanation.<br>
