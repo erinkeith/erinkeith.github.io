@@ -6,14 +6,10 @@
   If we don't figure these things out, we either can't start running or will never stop (my personal nightmare)!</p>
 <ul>
     <li><a href="#syntax">Syntax</a></li>
-    <li><a href="#behavior">Behavior</a>
-    <ul><li><a href="#stuff">Stuff</a></li>
-        <li><a href="#another">Another</a></li></ul>
-    </li>
-    <li><a href="#metaphor">Metaphors</a></li>
+    <li><a href="#behavior">Behavior</a></li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
-<p>In addition to the <u>body</u>, there are 3 components that should be included in each loop:
+<p>In addition to the <u>loop body</u>, there are 3 components that should be included in each loop:
   <ul>
     <li>The <u>initialization</u> expression allows to assign some <strong>start</strong>ing value to a variable that's going to change while the loop is running.
       <ul><li>In our real-life example, we could set a <code>stepsFromHome</code> variable to <code>0</code>.</li></ul></li>
@@ -31,8 +27,8 @@
 }</code></pre>
 where <code>expression1</code> is the <u>initialization</u> expression, <code>expression2</code> is the <u>controlling</u> expression, and <code>expression3</code> is the <u>update</u> expression.<br><br>
 Our real-life example would look like this:<br>
-<pre><code>for(stepsFromHome = 0; stepsFromHome < 3000; stepsFromHome++){
-  printf("<huffs> I'm running! <puffs>\n");
+<pre><code>for(stepsFromHome = 0; stepsFromHome &lt 3000; stepsFromHome++){
+  printf("&lt huffs &gt I'm running! &lt puffs &gt \n");
 }</code></pre>
 </p>
 <h4><code>while</code></h4>
@@ -43,8 +39,8 @@ Our real-life example would look like this:<br>
 and the <u>initialization</u> expression is assumed to be included before the loop.<br><br>
 Our real-life example would look like this:<br>
 <pre><code>stepsFromHome = 0;
-while(stepsFromHome < 3000){
-  printf("&lt huffs &gt I'm running! &lt puffs &gt\n");
+while(stepsFromHome &lt 3000){
+  printf("&lt huffs &gt I'm running! &lt puffs &gt \n");
   stepsFromHome++;
 }</code></pre>
 </p>
@@ -57,9 +53,9 @@ and again, the <u>initialization</u> expression is assumed to be included before
 Our real-life example would look like this:<br>
 <pre><code>stepsFromHome = 0;
 do{
-  printf("<huffs> I'm running! <puffs>\n");
+  printf("&lt huffs &gt I'm running! &lt puffs &gt \n");
   stepsFromHome++;
-}while(stepsFromHome < 3000);</code></pre>
+}while(stepsFromHome &lt 3000);</code></pre>
 </p>
 
 
