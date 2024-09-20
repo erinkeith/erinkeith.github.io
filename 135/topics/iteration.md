@@ -27,9 +27,8 @@
 }</code></pre>
 where <code>expression1</code> is the <u>initialization</u> expression, <code>expression2</code> is the <u>controlling</u> expression, and <code>expression3</code> is the <u>update</u> expression.<br><br>
 Our real-life example would look like this:<br>
-<pre><code>for(stepsFromHome = 0; stepsFromHome &lt 3000; stepsFromHome++){
-  printf("&lt huffs &gt I'm running! &lt puffs &gt \n");
-}</code></pre>
+<img src="https://github.com/user-attachments/assets/3a2d1e47-b36d-445e-8d90-be1a57b66801" width="500">
+<br>
 </p>
 <h4><code>while</code></h4>
 <p>The <code>while</code> loop includes the controlling expression between the parenthesis. The general format is<br>
@@ -38,11 +37,8 @@ Our real-life example would look like this:<br>
 }</code></pre>
 and the <u>initialization</u> expression is assumed to be included before the loop.<br><br>
 Our real-life example would look like this:<br>
-<pre><code>stepsFromHome = 0;
-while(stepsFromHome &lt 3000){
-  printf("&lt huffs &gt I'm running! &lt puffs &gt \n");
-  stepsFromHome++;
-}</code></pre>
+<img src="https://github.com/user-attachments/assets/f353f67c-6583-4e13-b6ea-6702f2933af0" width="350">
+<br>
 </p>
 <h4><code>do while</code></h4>
 <p>The <code>do while</code> loop moves the controlling expression to <em>after</em> the loop body. The general format is<br>
@@ -51,18 +47,7 @@ while(stepsFromHome &lt 3000){
 }while(control expression);</code></pre>
 and again, the <u>initialization</u> expression is assumed to be included before the loop. DON'T FORGET THE SEMICOLON!<br><br>
 Our real-life example would look like this:<br>
-<pre><code>stepsFromHome = 0;
-do{
-  printf("&lt huffs &gt I'm running! &lt puffs &gt \n");
-  stepsFromHome++;
-}while(stepsFromHome &lt 3000);</code></pre>
-</p>
-
+<img src="https://github.com/user-attachments/assets/b02a4029-8d4a-402f-8e0a-33d9cb73a02a" width="360">
+<br></p>
 
 <h3><a name="behavior">Behavior</a></h3>
-<h4><a name="stuff">Stuff</a></h4>
-<h4><a name="another">Another</a></h4>
-[<a href="#note">1</a>]
-<h3><a name="metaphor">Metaphors</a></h3>
-
-<a name="note">1</a>. Explanation.<br>
