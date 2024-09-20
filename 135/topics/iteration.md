@@ -8,18 +8,18 @@
     <li><a href="#syntax">Syntax</a></li>
     <li><a href="#behavior">Behavior</a>
     <ul><li><a href="#stuff">Stuff</a></li>
-        <li><a href="#another">Another</a></li></ul
+        <li><a href="#another">Another</a></li></ul>
     </li>
     <li><a href="#metaphor">Metaphors</a></li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
-<p>In addition to the <u>body</u>, there are 3 components (<strong>expressions</strong>) that should be included in each loop: initialization (<strong>start</strong>), controlling (<strong>continue</strong>), and update (<strong>change</strong>). 
+<p>In addition to the <u>body</u>, there are 3 components that should be included in each loop:
   <ul>
-    <li>The <u>initialization</u> expression allows to assign some starting value to a variable that's going to change while the loop is running.
+    <li>The <u>initialization</u> expression allows to assign some <strong>start</strong>ing value to a variable that's going to change while the loop is running.
       <ul><li>In our real-life example, we could set a <code>stepsFromHome</code> variable to <code>0</code>.</li></ul></li>
-    <li>The <u>controlling</u> expression generally compares the variable's value to another value that will tell us when to stop.
+    <li>The <u>controlling</u> expression generally compares the variable's value to another value that will tell us when to stop. The loop will <strong>continue</strong> as long as it evaluates to <code>1</code> or <em>true</em>.
       <ul><li>In our real-life example, we would continue as long as our <code>stepsFromHome</code> variable was less than <code>3000</code> steps.</li></ul></li>
-    <li>The <u>update</u> expression should change the value of the variable at some point during each iteration.
+    <li>The <u>update</u> expression should <strong>change</strong> the value of the variable at some point during each iteration.
       <ul><li>In our real-life example, every iteration could be a "step" and we could increase the <code>stepsFromHome</code> variable by <code>1</code> step each time.</li></ul></li>
   </ul>
 </p>
@@ -29,7 +29,8 @@
 <pre><code>for(expression1; expression2; expression3){
   //loop body
 }</code></pre>
-where <code>expression1</code> is the <u>initialization</u> expression, <code>expression2</code> is the <u>controlling</u> expression, and <code>expression3</code> is the <u>update</u> expression. Our real-life example would look like this:<br>
+where <code>expression1</code> is the <u>initialization</u> expression, <code>expression2</code> is the <u>controlling</u> expression, and <code>expression3</code> is the <u>update</u> expression.<br><br>
+Our real-life example would look like this:<br>
 <pre><code>for(stepsFromHome = 0; stepsFromHome < 3000; stepsFromHome++){
   printf("<huffs> I'm running! <puffs>\n");
 }</code></pre>
@@ -39,10 +40,11 @@ where <code>expression1</code> is the <u>initialization</u> expression, <code>ex
 <pre><code>while(control expression){
   //loop body, which should include the update expression
 }</code></pre>
-and the <u>initialization</u> expression is assumed to be included before the loop. Our real-life example would look like this:<br>
+and the <u>initialization</u> expression is assumed to be included before the loop.<br><br>
+Our real-life example would look like this:<br>
 <pre><code>stepsFromHome = 0;
 while(stepsFromHome < 3000){
-  printf("<huffs> I'm running! <puffs>\n");
+  printf("&lt huffs &gt I'm running! &lt puffs &gt\n");
   stepsFromHome++;
 }</code></pre>
 </p>
@@ -51,7 +53,8 @@ while(stepsFromHome < 3000){
 <pre><code>do{
   //loop body, which should include the update expression
 }while(control expression);</code></pre>
-and again, the <u>initialization</u> expression is assumed to be included before the loop. DON'T FORGET THE SEMICOLON! Our real-life example would look like this:<br>
+and again, the <u>initialization</u> expression is assumed to be included before the loop. DON'T FORGET THE SEMICOLON!<br><br>
+Our real-life example would look like this:<br>
 <pre><code>stepsFromHome = 0;
 do{
   printf("<huffs> I'm running! <puffs>\n");
