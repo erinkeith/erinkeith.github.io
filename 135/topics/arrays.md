@@ -8,12 +8,9 @@
     <li><a href="#syntax">Syntax</a></li>
     <ul><li><a href="#declaration">Declaration</a></li>
         <li><a href="#element_access">Accessing an Element</a></li>
-        <li><a href="#array_names">Array Names</a></li>
         <li><a href="#all_elements">Accessing All Elements</a></li>
         <li><a href="#macros">Macros</a></li></ul>
-    <li><a href="#behavior">Behavior</a>
-    </li>
-    <li><a href="#metaphor">Metaphors</a></li>
+    <li><a href="#behavior">Behavior</a></li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <h4><a name="declaration">Declaration</a></h4>
@@ -45,14 +42,9 @@
   or<br>
   <code>temperatures[3] > 75</code><br>
 </p>
-<h4><a name="array_names">Array Names</a></h4>
-<p>
-  While we tend to think of an array name referring to the whole group of values, it really only refers to the starting address of the array. 
-</p>
-
 <h4><a name="all_elements">Accessing All Elements</a></h4>
 <p>
-  Because the array name only refers to the beginning address, it cannot be used on its own to refer to all of the values at once. If you want to do something like display all of the values in an array, each element must be accessed individually, using indexes.
+  Because <a href="behavior">array names</a> only refer to the beginning memory address, they cannot be used on their own to refer to all of the values at once. If you want to do something like display all of the values in an array, each element <em>must</em> be accessed individually, using indexes (there is no shortcut for this).
 </p>
 <p>
   Since the index of the first element starts at <code>0</code>, the last index value is one less than the original size, and each element is at the next index value, arrays and for loops are best friends! For example:
@@ -67,6 +59,12 @@
 <p>Now we only have to change <code>24</code> to <code>96</code> once at the beginning of the file if we measure every fifteen minutes instead of every hour.
 </p>
 <h3><a name="behavior">Behavior</a></h3>
+<p>Before jumping into <strong>array</strong> behavior, it may help to take a refresher in <a href="https://github.com/erinkeith/erinkeith.github.io/blob/main/135/topics/variables.md#behavior">Variable Behavior</a>.</p>
 <p>
-  Before jumping into <strong>array</strong> behavior, it may help to take a refresher in <a href="https://github.com/erinkeith/erinkeith.github.io/blob/main/135/topics/variables.md#behavior">Variable Behavior</a>.
+  There's also no visible program behavior associated with array declaration. Again, the operating system is reserving memory, but instead of enough bytes for a single value, it reserves <strong>array size * number of bytes</strong> space. 
+</p>
+<p>
+  It's pretty normal to start out thinking that an array name refers to the whole group of values, but it really only refers to the starting address of the array. Remembering that can help prevent bugs, especially when using arrays with <strong>Functions</strong>.</p>
+<p>
+  To access individual elements, the compiler does some simple arithmetic with the index and the data type size to determine the correct location of that element.
 </p>
