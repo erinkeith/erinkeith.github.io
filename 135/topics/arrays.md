@@ -20,16 +20,20 @@
 <p>
   Array syntax is similar to variable syntax, with one important difference: <strong>size</strong>, which tells us how many values will be in our group. 
   The C <span title="coding rules for a programming language">syntax</span> for an array declaration statement must include 
-  a <a href="https://github.com/erinkeith/erinkeith.github.io/blob/main/135/topics/variables.md)">data type</a>, an identifier (or name), a size (between square brackets), and end with a semicolon.<br>
-  <br>For example, if we need to save 24 temperature measurements in our program, we can declare an array:<br><br>
+  a <a href="https://github.com/erinkeith/erinkeith.github.io/blob/main/135/topics/variables.md)">data type</a>, an identifier (or name), a size (between square brackets), and end with a semicolon.
+</p>
+<p>For example, if we need to save 24 temperature measurements in our program, we can declare an array:<br><br>
   <code>double temperatures[24];</code>
 </p>
 <h4><a name="element_access">Accessing Elements</a></h4>
 <p>
-  There are many benefits to arrays, many of which our outlined below, but we're still going to have to access each value (called an <strong><em>element</em></strong>) one at a time. 
-  To do that, we'll use the square brackets again but instead of having the size inside, it will be the location (called the <strong><em>index</em></strong>.<br><br>
-  <strong>WARNING!</strong> Index values always start at <code>0</code>. They <strong><em>do not</em></strong> start at <code>1</code> (and should almost never be used that way).<br>
-  <br>For example, we can access the first value in the temperatures array through the following expression:<br>
+  There are many benefits to grouping values, but we will still need to access each value (called an <strong><em>element</em></strong>) one at a time. To do that, we'll use the square brackets again but instead of having the size inside, it will be the location (called the <strong><em>index</em></strong>).
+</p>
+<p>
+  <strong>WARNING!</strong> Index values always start at <code>0</code>. They <strong><em>do not</em></strong> start at <code>1</code> (and should almost never be used that way).
+</p>
+<p>
+  For example, we can access the first value in the temperatures array through the following expression:<br>
   <code>temperatures[0]</code><br>
   <br>Expressions in this form can be used anywhere you would use a "regular" variable.<br>
   <br><code>temperatures[0] = 88.2</code><br>
