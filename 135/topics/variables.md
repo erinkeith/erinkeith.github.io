@@ -2,10 +2,13 @@
 <p>Variables are the computer science tool we use when we want to save values in our program. Usually these values change over time or we don't know what they'll be while we're writing the code (kind of like the unknowns in an algebra equation).</p>
 <ul>
     <li><a href="#syntax">Syntax</a></li>
+    <ul><li><a href="#declaration">Declaration</a></li>
+        <li><a href="#data_types">Data Types</a></li></ul>
     <li><a href="#behavior">Behavior</a></li>
     <li><a href="#metaphor">Metaphors</a></li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
+<h4><a name="declaration">Declaration</a></h4>
 <p>If we want to include a variable in our program, we must "declare" it. The C <span title="coding rules for a programming language">syntax</span> for a variable declaration statement must include a <a href="#data_type">data type</a>, an identifier (or name), and end with a semicolon.
 <br><br>For example, if we need to save a user's age in our program we must declare a variable:<br><br>
 <code>int userAge;</code></p>
