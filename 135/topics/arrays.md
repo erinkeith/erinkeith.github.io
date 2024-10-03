@@ -7,8 +7,8 @@
 <ul>
     <li><a href="#syntax">Syntax</a></li>
     <ul><li><a href="#declaration">Declaration</a></li>
-        <ul><li><a href="#array_names">Array Names</a></li></ul>
         <li><a href="#element_access">Accessing an Element</a></li>
+        <li><a href="#array_names">Array Names</a></li>
         <li><a href="#all_elements">Accessing All Elements</a></li>
         <li><a href="#macros">Macros</a></li></ul>
     <li><a href="#behavior">Behavior</a>
@@ -35,7 +35,7 @@
   For example, we can access the first value in the temperatures array through the following expression:<br>
   <code>temperatures[0]</code><br>
   <br>Expressions in this form can be used anywhere you would use a "regular" variable.<br>
-  <br><code>temperatures[0] = 88.2</code><br>
+  <code>temperatures[0] = 88.2</code><br>
   or<br>
   <code>printf("%.2lf", temperatures[1]);</code><br>
   or<br>
@@ -55,10 +55,10 @@
   Because the array name only refers to the beginning address, it cannot be used on its own to refer to all of the values at once. If you want to do something like display all of the values in an array, each element must be accessed individually, using indexes.
 </p>
 <p>
-  Since the index of the first element starts at <code>0</code>, the last index value is one less than the original size, and each element is at the next index value, arrays and for loops are best friends! For example: <br>
+  Since the index of the first element starts at <code>0</code>, the last index value is one less than the original size, and each element is at the next index value, arrays and for loops are best friends! For example:
 <pre><code>for(index = 0; index < 24; index++){
     printf(".2lf ", temperatures[index]);
-}</code></pre><br>
+}</code></pre>
   would display all of the values in the <code>temperatures</code> array.
 </p>
 <h4><a name="macros">Macros</a></h4>
