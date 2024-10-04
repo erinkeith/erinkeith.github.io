@@ -1,8 +1,8 @@
 <h2>Arrays</h2>
 <p><strong>Arrays</strong> allow us to store multiple values of the same data type in a group.</p>
-<p>Let's say we're writing an application which needs to store 3 air temperature measurements throughout the day. It might make sense to create 3 variables:<br>
+<p>Let's say we're writing an application which needs to store 3 air temperature measurements throughout the day. It might make sense to create 3 <strong>scalar</strong> (single value) variables:<br>
   <code>double sunriseTemp, noonTemp, sunsetTemp;</code><br>
-  <br>But what if we need to store measurements for every hour? Or every 15 minutes? There's got to be an easier way than declaring 24 or 96 different variables! Enter <strong>arrays</strong> to the rescue!
+  <br>But what if we need to store measurements for every hour? Or every 15 minutes? There's got to be an easier way than declaring 24 or 96 different variables! Since they are considered <strong>composite</strong> (multiple values), <strong>arrays</strong> can come to the rescue!
 </p>
 <ul>
     <li><a href="#syntax">Syntax</a></li>
