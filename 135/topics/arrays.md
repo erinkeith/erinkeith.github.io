@@ -44,7 +44,7 @@
 </p>
 <h4><a name="all_elements">Accessing All Elements</a></h4>
 <p>
-  Because <a href="behavior">array names</a> only refer to the beginning memory address, they cannot be used on their own to refer to all of the values at once. If you want to do something like display all of the values in an array, each element <em>must</em> be accessed individually, using indexes (there is no shortcut for this).
+  Because <a href="#behavior">array names</a> only refer to the beginning memory address, they cannot be used on their own to refer to all of the values at once. If you want to do something like display all of the values in an array, each element <em>must</em> be accessed individually, using indexes (there is no shortcut for this).
 </p>
 <p>
   Since the index of the first element starts at <code>0</code>, the last index value is one less than the original size, and each element is at the next index value, arrays and for loops are best friends! For example:
@@ -64,7 +64,8 @@
   There's also no visible program behavior associated with array declaration. Again, the operating system is reserving memory, but instead of enough bytes for a single value, it reserves <strong>array size * number of bytes</strong> space. 
 </p>
 <p>
-  It's pretty normal to start out thinking that an array name refers to the whole group of values, but it really only refers to the starting address of the array. Remembering that can help prevent bugs, especially when using arrays with <strong>Functions</strong>.</p>
+  It's pretty normal to start out thinking that an array name refers to the whole group of values, but it really only refers to the starting address of the array. Remembering that can help prevent bugs, especially when using arrays with <strong>functions</strong>.</p>
 <p>
-  To access individual elements, the compiler does some simple arithmetic with the index and the data type size to determine the correct location of that element.
+  To access individual elements, the compiler does some simple arithmetic with the index and the data type size to determine the correct location of that element. <img src="https://github.com/user-attachments/assets/5eaa63a8-8f91-400f-a4e9-a5e5612ee737"><br>
+  This is why indexes always starts at <code>0</code>! The result of <strong>0 * number of bytes + starting address</strong> is the starting address and first element!
 </p>
