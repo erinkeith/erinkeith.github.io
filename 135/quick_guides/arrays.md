@@ -48,8 +48,8 @@
         </td>
     </tr>
     <tr>
-        <td><strong>variable length</strong> arrays use an <code>int</code> variable as the size. For example, the size can be determined during runtime if the user enters the number of items before the array needs to be declared</td>
-        <td><img alt="variable length array" src=""></td>
+        <td><strong>variable length</strong> arrays use an <code>int</code> variable as the size during declaration.<br><br>For example, the size can be determined during runtime if the user enters the number of items before the array needs to be declared</td>
+        <td><img alt="variable length array" src="https://github.com/user-attachments/assets/f178a7c5-1dfe-4a4c-8fa5-d53029e0b973"></td>
         <td>
           <ul><li>As long as the size variable stores a valid <code>int</code> value, it can be used as the size in the array declaration but <strong>the order of these statements is very important!</strong></li>
               <li>The variable used as the size during declaration can also be used to control any <code>for</code> loops used to access all the elements in the array.</li>
@@ -58,7 +58,7 @@
     </tr>
     <tr>
         <td>arrays of an <strong>arbitrarily large</strong> size can be used when we can't determine the number of objects <em>before</em> storing them in the array</td>
-        <td><img alt="variable length array" src=""></td>
+        <td><img alt="arbitrarily large" src="https://github.com/user-attachments/assets/f216a6fb-54e1-47e2-a1bb-77f42a1fbd4a"></td>
         <td>
           <ul><li>The size during array declaraion is considered the <em>capacity</em>.</li>
               <li>The actual number of useful values must also be saved in another variable and would be used to control any necesary <code>for</code> loops.</li>
