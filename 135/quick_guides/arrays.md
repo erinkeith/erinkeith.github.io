@@ -61,7 +61,7 @@
         <td><img alt="arbitrarily large" src="https://github.com/user-attachments/assets/5d8ad8d0-d484-4206-858f-e2e7a6418c7c"></td>
         <td>
           <ul><li>the size during array declaration is considered the <em>capacity</em></li>
-              <li>the actual number of useful values must also be saved in another variable and would be used to control any subsequent <code>for</code> loops</li>
+              <li>the actual number of useful values must also be saved in another variable and should be used to control any subsequent <code>for</code> loops</li>
           </ul>
         </td>
     </tr>
