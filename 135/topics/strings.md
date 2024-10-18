@@ -24,7 +24,7 @@ int main(){
 </p>
 <img src="https://github.com/user-attachments/assets/aa938a03-df49-4707-a097-a7e806fa9470" width="60%"><br>
 <p>
-  With the exception of <a href="https://erinkeith.github.io/135/topics/formatted_io">Formatted IO</a>, the approach to acceesing the letter <em>elements</em> of <strong>C-style strings</strong> is the same as regular arrays, with one exception: <strong><em>the control condition</em></strong>. We must still use an array's bestie, the <a href="https://erinkeith.github.io/135/topics/iteration#for"><code>for</code> loop</a>, but instead of stopping at size (or <em>capacity</em>), the end of the <strong>C-style string</strong> is actually the <strong>null character</strong> <code>\0</code>, as demon.
+  With the exception of <a href="https://erinkeith.github.io/135/topics/formatted_io">Formatted IO</a>, the approach to acceesing the letter <em>elements</em> of <strong>C-style strings</strong> is the same as regular arrays, with one exception: <strong><em>the control condition</em></strong>. We must still use an array's bestie, the <a href="https://erinkeith.github.io/135/topics/iteration#for"><code>for</code> loop</a>, but instead of stopping at size (or <em>capacity</em>), the end of the <strong>C-style string</strong> is actually the <strong>null character</strong> <code>\0</code>, as demononstrated below.
 <pre><code>for(int index = 0; c_style_string[index] != '\0'; index++){
   // loop body
 }
