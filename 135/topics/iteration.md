@@ -19,7 +19,7 @@
   </ul>
 </p>
 <p>There are 3 types of loops in C, which rearrange these parts to make them more ideal for certain circumstances.</p>
-<h4><a name="#for"><code>for</code></a></h4>
+<h4><a name="for"><code>for</code></a></h4>
 <p>The <code>for</code> loop conveniently combines the required expressions in between the parenthesis. The general format is<br>
 <pre><code>for(expression1; expression2; expression3){
   //loop body
@@ -29,7 +29,7 @@ Our real-life example would look like this:<br>
 <img src="https://github.com/user-attachments/assets/3a2d1e47-b36d-445e-8d90-be1a57b66801" width="500">
 <br>
 </p>
-<h4><a name="#while"><code>while</code></a></h4>
+<h4><a name="while"><code>while</code></a></h4>
 <p>The <code>while</code> loop includes the controlling expression between the parenthesis. The general format is<br>
 <pre><code>while(control expression){
   //loop body, which should include the update expression
@@ -39,7 +39,7 @@ Our real-life example would look like this:<br>
 <img src="https://github.com/user-attachments/assets/f353f67c-6583-4e13-b6ea-6702f2933af0" width="350">
 <br>
 </p>
-<h4><a name="#do_while"><code>do while</code></a></h4>
+<h4><a name="do_while"><code>do while</code></a></h4>
 <p>The <code>do while</code> loop moves the controlling expression to <em>after</em> the loop body. The general format is<br>
 <pre><code>do{
   //loop body, which should include the update expression
