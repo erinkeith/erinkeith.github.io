@@ -32,7 +32,7 @@
 <h3><a name="syntax">Syntax</a></h3>
   <h4><a name="definition">Definitions</a></h4>
   <p>
-    Although there are many parts of incorporating functions into our programs, function <em>definitions</em> are at the core. They are where we put the code meant to accomplish the function's task or <strong>BEHAVIOR</strong>. Each function <em>definition</em> should include the <strong><em>return type</em></strong> of the function, the <strong><em>name</em></strong> of the function, and a list of <strong><em>parameters</em></strong> and their data types.
+    Although there are many parts of incorporating functions into our programs, function <em>definitions</em> are at the core. They are where we put the code meant to accomplish the function's task or <strong>BEHAVIOR</strong>. Each function <em>definition</em> should include the <strong><em>return type</em></strong> of the function, the <strong><em>name</em></strong> of the function, a list of <strong><em>parameters</em></strong> and their data types, and the <strong><em>body</em></strong> of the function.
   </p> 
   <p>
     The <strong><em>return type</em></strong> should match the data type of any value that is sent out of the function back to another part of the program. If no value is sent back, the return type should be <code>void</code>, as we see below:<br>
@@ -47,6 +47,9 @@
   </p>
   <p>
     <strong><em>Parameters</em></strong> are like special variables that save the values (<strong>STATE</strong>) sent into the function; they represent the <em>circumstances</em>. When we're writing a function definition, we just need to understand what the parameters represent. In our example above, the first <strong><em>parameter</em></strong> is a whole number That represents how many characters wide we want the line to be and the second <strong><em>parameter</em></strong> represents which character we'll be using for our line. Since these are the <em>circumstances</em> (<strong>STATE</strong>) that can change each time the function is used, the <strong><em>parameters</em></strong> are treated exactly like variables that already have a value stored in them; we don't have to worry about any actual values, but considering possible <em>circumstances</em> can help us write the code and catch any "edge cases".
+  </p>
+  <p>
+    The function <strong><em>body</em></strong> is all of the code needed to accomplish the function's task (<strong>BEHAVIOR</strong>) and goes between the curly braces. Anything can go here, even other function calls!
   </p>
   <h4><a name="call">Calls</a></h4>
   <h4><a name="prototype">Prototypes</a></h4>
