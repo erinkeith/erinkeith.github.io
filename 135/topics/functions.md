@@ -15,7 +15,7 @@
         <li><a href="#output">Returned Values</a></li></ul>
     </li>
     <li><a href="#metaphor">Metaphors</a></li>
-    <ul><li><a href="#chapters">Like a Chapter Book</a></li>
+    <ul><li><a href="#chapters">Like a Chapter Book</a></li></ul>
 </ul>
   
 <h3><a name="syntax">Syntax</a></h3>
