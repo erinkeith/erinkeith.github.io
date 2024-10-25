@@ -41,6 +41,8 @@
     printf("%c", symbol);
   }
 }</code></pre>
+  </p>
+  <p>
     The function <strong><em>name</em></strong> should be related to the task or <strong>BEHAVIOR</strong> the function performs, which helps our code read like a beautiful story! 
   </p>
   <p>
@@ -56,6 +58,8 @@
   <p>
     If the function <strong><em>returns</em></strong> a value, the function <em>call</em> will evaluate to (be replaced by) it. Often the assignment operator <code>=</code> is used to store the <strong><em>returned value</em></strong> in another variable (although sometimes it can just be used directly). If the <strong><em>return type</em></strong> is <code>void</code>, then there's no <strong><em>returned value</em></strong> to consider, as demonstrated below:<br>
 <pre><code>printHorizLine(15, '=');</code></pre>
+  </p>
+  <p>
     <strong><em>Arguments</em></strong> are the actual values (<strong>STATE</strong>) sent into the function; they are the specific <em>circumstances</em> for that instance or version of the function. In our example above, the first <strong><em>argument</em></strong> is the actual width of the line outlined in orange and the second <strong><em>argument</em></strong> is the actual character we want to use. Since the function <em>definition</em> is general enough to execute the task (<strong>BEHAVIOR</strong>) each time we send in different <strong><em>arguments</em></strong>, we get to re-use the function code each time we <em>call</em> it:<br>
 <pre><code>printHorizLine(10, '-');</code></pre>
     This function call displays the first line outlined in blue!
@@ -79,6 +83,6 @@
   While this comparison can help us understand why functions are important, it can also help us understand how to incorporate them into our programs if we imagine these recipes in a recipe book! The actual recipes themselves are like function <strong><em>definitions</em></strong>, since they contain the necessary instructions. The function <strong><em>call</em></strong> would be similar to when we actually use the recipe to make the dish. The function <strong><em>prototypes</em></strong> are like the table of contents at the beginning of the book, which is very convenient for finding the recipe pages when we need them.
 </p>
 <p>
-  Finally, if we consider ingredients to be like <strong><em>arguments</em></strong> into the functions and the final dish as the <strong><em>returned output</em></strong>, the <strong><em>main</em></strong> function/chef becomes responsible for coordinating the larger aspects of the meal. They must guarantee the right ingredients are already in the kitchen (it would be strange to ask your uncle to make pumpkin pie, then tell him he has to go to the store first). They must make decisionns to synchronize the timing of when to start the dishes so everything can be ready to serve at roughly the same time. Finally, they must ensure there are enough serving bowls and platters to store finished dishes for the meal itself.<br>
-  <img src="https://github.com/user-attachments/assets/b36395d8-dfab-4806-b0d0-f1a24c861075" width="200">
+  Finally, if we consider ingredients to be like <strong><em>arguments</em></strong> into the functions and the final dish as the <strong><em>returned output</em></strong>, the <strong><em>main</em></strong> function/chef becomes responsible for coordinating the larger aspects of the meal. They must guarantee the right ingredients are already in the kitchen (it would be strange to ask your uncle to make pumpkin pie, then tell him he has to go to the store first). They must make decisionns to synchronize the timing of when to start the dishes so everything can be ready to serve at roughly the same time. Finally, they must ensure there are enough serving bowls and platters to store finished dishes for the meal itself.
+  <img src="https://github.com/user-attachments/assets/b36395d8-dfab-4806-b0d0-f1a24c861075">
 </p>
