@@ -62,10 +62,10 @@
   <p>
     <strong><em>Arguments</em></strong> are the actual values (<strong>STATE</strong>) sent into the function; they are the specific <em>circumstances</em> for that instance or version of the function. In our example above, the first <strong><em>argument</em></strong> is the actual width of the line outlined in orange and the second <strong><em>argument</em></strong> is the actual character we want to use. Since the function <em>definition</em> is general enough to execute the task (<strong>BEHAVIOR</strong>) each time we send in different <strong><em>arguments</em></strong>, we get to re-use the function code each time we <em>call</em> it:<br>
 <pre><code>printHorizLine(10, '-');</code></pre>
-    This function call displays the first line outlined in blue!
+    This function <em>call</em> displays the first line outlined in blue!
   </p>
   <p>
-    It's important to note that, while the data types of the arguments should match that of the function definition, data types keywords (like <code>int</code> or <code>char</code> should <strong>NOT</strong> be included in function calls.
+    It's important to note that, while the data types of the arguments should match that of the function definition, data type keywords (like <code>int</code> or <code>char</code> should <strong>NOT</strong> be included in function calls.
   </p>
 <!--
   <h4><a name="prototype">Prototypes</a></h4>
@@ -84,5 +84,5 @@
 </p>
 <p>
   Finally, if we consider ingredients to be like <strong><em>arguments</em></strong> into the functions and the final dish as the <strong><em>returned output</em></strong>, the <strong><em>main</em></strong> function/chef becomes responsible for coordinating the larger aspects of the meal. They must guarantee the right ingredients are already in the kitchen (it would be strange to ask your uncle to make pumpkin pie, then tell him he has to go to the store first). They must make decisionns to synchronize the timing of when to start the dishes so everything can be ready to serve at roughly the same time. Finally, they must ensure there are enough serving bowls and platters to store finished dishes for the meal itself.
-  <img src="https://github.com/user-attachments/assets/b36395d8-dfab-4806-b0d0-f1a24c861075">
+  <img src="https://github.com/user-attachments/assets/b36395d8-dfab-4806-b0d0-f1a24c861075" width="200">
 </p>
