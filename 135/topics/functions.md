@@ -18,10 +18,9 @@
     <li><a href="#syntax">Syntax</a>
     <ul><li><a href="#definition">Definitions</a></li>
     	 <li><a href="#call">Calls</a></li>
+       <li><a href="#prototype">Prototypes</a></li>
     </ul></li>
     <li><a href="#metaphor">Metaphor: Like a Thanksgiving Dinner</a></li><!--
-        <li><a href="#prototype">Prototypes</a></li></ul>
-    </li>
     <li><a href="#behavior">Behavior</a>
     <ul><li><a href="#input">Parameters vs Arguments</a></li>
         <li><a href="#scope">Scope and Duration</a></li>
@@ -67,8 +66,27 @@
   <p>
     It's important to note that, while the data types of the arguments should match that of the function definition, data type keywords (like <code>int</code> or <code>char</code> should <strong>NOT</strong> be included in function calls.
   </p>
-<!--
   <h4><a name="prototype">Prototypes</a></h4>
+  <p>
+    The final component of using functions in our programs will be function <em>prototypes</em>. While they aren't strictly necessary, they are considered a "best practice"; since using and understanding them will help students in future CSE courses, they will be required in this class. Luckily, they're pretty easy to incorporate!
+  </p>
+  <p>
+    We just need to include all of the parts of function <em>definitions</em> before the <strong><em>body</em></strong> with a semicolon at the end:
+  <pre><code>void printHorizLine(int width, char symbol);</code></pre>
+  </p>
+  <p>
+    These new components change the overall structure of our program files:
+    <ol>
+      <li>header comments</li>
+      <li>preprocessor directives</li>
+      <li>function <em>prototypes</em></li>
+      <li><code>main</code> function</li>
+      <li>function <em>definitions</em></li>
+    </ol>
+    We can apply this new structure to put all the pieces of our example together:<br>
+    <img src="https://github.com/user-attachments/assets/dd22e020-40bc-43c5-8c87-5927b4a8e867" width="400">
+  </p>
+<!--
 <h3><a name="behavior">Behavior</a></h3>
   <h4><a name="input">Parameters vs Arguments</a></h4>
   <p>represent the "different circumstances"</p>
@@ -83,6 +101,6 @@
   While this comparison can help us understand why functions are important, it can also help us understand how to incorporate them into our programs if we imagine these recipes in a recipe book! The actual recipes themselves are like function <strong><em>definitions</em></strong>, since they contain the necessary instructions. The function <strong><em>call</em></strong> would be similar to when we actually use the recipe to make the dish. The function <strong><em>prototypes</em></strong> are like the table of contents at the beginning of the book, which is very convenient for finding the recipe pages when we need them.
 </p>
 <p>
-  Finally, if we consider ingredients to be like <strong><em>arguments</em></strong> into the functions and the final dish as the <strong><em>returned output</em></strong>, the <strong><em>main</em></strong> function/chef becomes responsible for coordinating the larger aspects of the meal. They must guarantee the right ingredients are already in the kitchen (it would be strange to ask your uncle to make pumpkin pie, then tell him he has to go to the store first). They must make decisionns to synchronize the timing of when to start the dishes so everything can be ready to serve at roughly the same time. Finally, they must ensure there are enough serving bowls and platters to store finished dishes for the meal itself.
+  Finally, if we consider ingredients to be like <strong><em>arguments</em></strong> into the functions and the final dish as the <strong><em>returned output</em></strong>, the <strong><em>main</em></strong> function/chef becomes responsible for coordinating the larger aspects of the meal. They must guarantee the right ingredients are already in the kitchen (it would be strange to ask your uncle to make pumpkin pie, then tell him he has to go to the store first). They must make decisionns to synchronize the timing of when to start the dishes so everything can be ready to serve at roughly the same time. Finally, they must ensure there are enough serving bowls and platters to store finished dishes for the meal itself.<br>
   <img src="https://github.com/user-attachments/assets/b36395d8-dfab-4806-b0d0-f1a24c861075" width="200">
 </p>
