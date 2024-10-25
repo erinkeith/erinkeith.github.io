@@ -16,7 +16,7 @@
 </p>
 <ul>
     <li><a href="#syntax">Syntax</a>
-    <ul><li><a href="#definition">Definitions</a></li>
+    <ul><li><a href="#definition">Definitions</a></li><!--
         <li><a href="#call">Calls</a></li>
         <li><a href="#prototype">Prototypes</a></li></ul>
     </li>
@@ -26,8 +26,8 @@
         <li><a href="#output">Returned Values</a></li></ul>
     </li>
     <li><a href="#metaphor">Metaphors</a></li>
-    <ul><li><a href="#chapters">Like a Chapter Book</a></li></ul>
-</ul>
+    <ul><li><a href="#chapters">Like a Chapter Book</a></li></ul>-->
+</ul></ul>
   
 <h3><a name="syntax">Syntax</a></h3>
   <h4><a name="definition">Definitions</a></h4>
@@ -51,6 +51,7 @@
   <p>
     The function <strong><em>body</em></strong> is all of the code needed to accomplish the function's task (<strong>BEHAVIOR</strong>) and goes between the curly braces. Anything can go here, even other function calls!
   </p>
+<!--
   <h4><a name="call">Calls</a></h4>
   <h4><a name="prototype">Prototypes</a></h4>
 <h3><a name="behavior">Behavior</a></h3>
@@ -64,3 +65,4 @@
 
 [<a href="#note">1</a>]
 <a name="note">1</a>. Explanation.<br>
+-->
