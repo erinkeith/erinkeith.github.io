@@ -10,10 +10,10 @@
       </ul></li>
     <li><a href="#syntax">Syntax</a>
       <ul>
+        <li><a href="#prototypes">Prototypes</a></li>
+        <li><a href="#call">Calls</a></li>
         <li><a href="#definition">Definitions</a></li>
-    	  <li><a href="#call">Calls</a></li>
       </ul></li>
-    <li><a href="#behavior">Behavior</a></li>
 </ul>
 <h3><a name="background">Background</a></h3>
 <p>
@@ -46,7 +46,8 @@
 <pre><code>int age;
 int* agePtr;
 
-agePtr = &age;</code></pre>
+agePtr = &age; // agePtr now "points to" age
+</code></pre>
 </p>
 <h5>Aliasing</h5>
 <p>
@@ -60,13 +61,25 @@ printf("%d\n", age); // would display 45
 </code></pre>
 </p>
 <h3><a name="syntax">Syntax</a></h3>
-
-<h3><a name="behavior">Behavior</a></h3>
+<h4><a name="prototypes">Prototypes</a></h4>
 <p>
-  First of all, let's be clear that when we talk about "output" with respect to functions, we must determine which of the following 3 techniques are appropriate:
-  <ol>
-    <li>program output, like to the <a href="https://erinkeith.github.io/135/topics/formatted_io#printf">console</a> or a file</li>
-    <li><a href="https://erinkeith.github.io/135/topics/functions#definition">returned</a> output, which can only be one value</li>
-    <li>pass by address, which allows for "outputting" multiple values</li>
-  </ol>
+  We will use the asterisk <code>*</code> for any pointer parameters.
+<pre><code>void swapInts(int* val1, int* val2);</code></pre>
+</p>
+<h4><a name="call">Calls</a></h4>
+<p>
+  We will use our new address of operator <code>&</code> in the function call.
+<pre><code>int x = 5, y = 42;
+swapInts(&x, &y); 
+// now x stores 42 and y stores 5
+</code></pre>
+</p>
+<h4><a name="definition">Definitions</a></h4>
+<p>
+  The asterisk <code>*</code> is used as the dereference operator within the function definition.
+<pre><code>void swapInts(int* val1, int* val2){ // val1 "points at" (stores the memory address of) x and val2 "points at" y
+  int temp = *val1; // stores the value from x in temp
+  *val1 = *val2;    // overwrites the value in x with the value in y
+  *val2 = temp;     // overwrites the value in y with the value that had been in x at the beginning of the function
+}</code></pre>
 </p>
