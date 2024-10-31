@@ -4,10 +4,16 @@
 </p>
 <ul>
     <li><a href="#background">Background</a>
-    <ul><li><a href="#value">Pass by Value</a></li>
-        <li><a href="#pointers">Pointers</a></li></ul>
-    <li><a href="#syntax">Syntax</a></li>
-    <li><a href="#behavior">Behavior</a>
+      <ul>
+        <li><a href="#value">Pass by Value</a></li>
+        <li><a href="#pointers">Pointers</a></li>
+      </ul></li>
+    <li><a href="#syntax">Syntax</a>
+      <ul>
+        <li><a href="#definition">Definitions</a></li>
+    	  <li><a href="#call">Calls</a></li>
+      </ul></li>
+    <li><a href="#behavior">Behavior</a></li>
 </ul>
 <h3><a name="background">Background</a></h3>
 <p>
@@ -30,27 +36,27 @@
 </p>
 <h5>Declaration</h5>
 <p>
-  A big difference when using pointers is the data type portion of the declaration. Because they are a used as references to other variables, we must consider what type of variable they will "point" to, which gets used in the declaration. For example, if we need a pointer to point to an integer variable, the declaration will include the <code>int</code> type, along with an asterisk <code>*</code>:<br>
-  <code>int* agePtr;</code><br>
+  A big difference when using pointers is the data type portion of the declaration. Because they are a used as references to other variables, we must consider what type of variable they will "point" to, which gets used in the declaration. For example, if we need a pointer to point to an integer variable, the declaration will include the <code>int</code> type, along with an asterisk <code>*</code>:
+<pre><code>int* agePtr;</code></pre>
   (I often add "<code>ptr</code>" to the end of the pointer variable name to help me keep track of things)
 </p>
 <h5>Assignment</h5>
 <p>
-  We won't do it in this class, but if you wanted to explicitly point at a variable, that other variable must first exist (order is important here!). Then we can combine the address of operator <code>&</code> with the assignment operator <code>=</code>:<br>
-  <pre><code>int age;
-  int* agePtr;
+  We won't do it in this class, but if you wanted to explicitly point at a variable, that other variable must first exist (order is important here!). Then we can combine the address of operator <code>&</code> with the assignment operator <code>=</code>:
+<pre><code>int age;
+int* agePtr;
 
-  agePtr = &age;</code></pre>
+agePtr = &age;</code></pre>
 </p>
 <h5>Aliasing</h5>
 <p>
-  Finally, once a pointer is referencing another variable, the pointer can be used as a alias by appling the dereference operator <code>*</code>:<br>
-  <pre><code>int age = 0;
-  int* agePtr;
+  Finally, once a pointer is referencing another variable, the pointer can be used as a alias by appling the dereference operator <code>*</code>:
+<pre><code>int age = 0;
+int* agePtr;
 
-  agePtr = &age;
-  *agePtr = 45; // uses the pointer as an alias to save 45 in the age variable
-  printf("%d\n", age); // would display 45
+agePtr = &age;
+*agePtr = 45; // uses the pointer as an alias to save 45 in the age variable
+printf("%d\n", age); // would display 45
 </code></pre>
 </p>
 <h3><a name="syntax">Syntax</a></h3>
