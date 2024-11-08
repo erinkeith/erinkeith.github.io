@@ -29,8 +29,32 @@
   <code>filePointer = fopen("filename.txt", "r");</code>
 </p>
 <p>
-  The first argument is a string containing the filename (this is the only time the filename is used). The second argument is the <em>mode</em>, which determines which "direction" the <em>stream</em> flows (in or out). Although there are more <em>modes</em>, we will stick to <code>"r"</code> for <em>read</em> (<u>input</u>) and <code>"w"</code> for <em>write</em> (<u>output</u>).
+  The first argument is a string containing the filename (this is the only time the filename is used). The second argument is the <em>mode</em>, which determines which "direction" the <em>stream</em> flows (in or out). Although there are more <em>modes</em>, we will stick primarily to the following modes:
 </p>
+<table>
+  <tr>
+    <th>Mode</th>
+    <th>Code</th>
+    <th>Road</th>
+  </tr>
+  <tr>
+    <td><strong>Read</strong></td>
+    <td><code>"r"</code></td>
+    <td>get input info into the program from a file</td>
+  </tr>
+  <tr>
+    <td><strong>Write</strong></td>
+    <td><code>"w"</code></td>
+    <td>output info from the program to a file, starting at the file beginning<br>
+    (any previous contents are erased)</td>
+  </tr>
+  <tr>
+    <td><strong>Append</strong></td>
+    <td><code>"a"</code></td>
+    <td>output info from the program to a file, starting at the file end<br>
+    (any previous contents remain)</td>
+  </tr>
+</table>
 <p>
   If it <em>fails</em> to connect to the file, the <code>fopen</code> function will return a <code>NULL</code>[<a href="#null">1</a>] pointer. Before we do anything with the <em>stream</em> or file pointer, we first have to check to see if the connection failed by checking the file pointer for <code>NULL</code>.
 </p>
