@@ -86,7 +86,7 @@
 <h4><a name="input">Input</a></h4>
 <p>
   Once a <em>stream</em> or file pointer is successfully connected to a file in <code>"r"</code> mode, we can get "input" or read from it. We primarily use the <code>fscanf</code> function for that. It is almost identical to <code>fscanf</code> with the same exception as above: the file pointer is added!<br>
-  <code>fscanf(filePointer, "%s", &firstName);</code>
+  <code>fscanf(filePointer, "%s", firstName);</code>
 </p>
 <p>
   The same constraints apply to <code>fscanf</code> as <code>scanf</code> for strings: it stops at the first blank space. If we need more than that, we can always use the <code>fgets</code> function!<br>
