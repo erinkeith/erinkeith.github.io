@@ -10,11 +10,11 @@
   Since we play with Xs and Os, it makes sense that we'll want to save each of those as <code>char</code> variables, which also means that a "blank" or empty space will need to be represented by a <code>char</code> value. I think a literal space <code>' '</code> would make the most sense!
 </p>
 <ul>
-    <li><a href="#syntax">Syntax</a></li>
+    <li><a href="#syntax">Syntax</a>
     <ul><li><a href="#declaration">Declaration</a></li>
         <li><a href="#element_access">Accessing an Element</a></li>
         <li><a href="#all_elements">Accessing All Elements</a></li></ul>
-    <li><a href="#arrays_of_strings">Arrays of Strings</a></li>
+      </li>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <h4><a name="declaration">Declaration</a></h4>
@@ -27,7 +27,7 @@
 </p>
 <h4><a name="element_access">Accessing Elements</a></h4>
 <p>
-  We will still need to access each <em>element</em> one at a time. To do that, we'll use the square brackets again but instead of having the size inside, it will be the row and column <em>index</em>.
+  We will still need to access each <em>element</em> one at a time. To do that, we'll use the square brackets again but instead of having the sizes inside, it will be the row and column <em>index</em>.
 </p>
 <p>
   <strong>WARNING!</strong> Index values <u>still</u> always start at <code>0</code>. They <strong><em>do not</em></strong> start at <code>1</code> (and should almost never be used that way).
@@ -56,5 +56,3 @@ board[0][1] = 'O';</code></pre>
 }</code></pre>
 <em>clears</em> the board by setting every element to the space character.
 </p>
-
-<h3><a name="arrays_of_strings">Arrays of Strings</a></h3>
