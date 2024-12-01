@@ -1,18 +1,18 @@
 <h2>Arrays in Functions</h2>
 <p>Because <a href="https://erinkeith.github.io/135/topics/arrays#behavior">arrays</a> are for groups of the same type of values and parameters can only store one thing, passing arrays into <a href="https://erinkeith.github.io/135/topics/functions#definition">functions</a> is a little different...</p>
 <ul>
-    <li><a href="#1D">1D Arrays</a>
+    <li><a href="#1D">1D Array Parameters</a>
     <ul><li><a href="#1prototype">Prototypes</a></li>
         <li><a href="#1definition">Definitions</a></li>
         <li><a href="#1call">Calls</a></li>
     </ul></li>
-    <li><a href="#2D">2D Arrays</a>
+    <li><a href="#2D">2D Array Parameters</a>
     <ul><li><a href="#2prototype">Prototypes</a></li>
         <li><a href="#2definition">Definitions</a></li>
         <li><a href="#2call">Calls</a></li>
     </ul></li>
 </ul>
-<h3><a name="1D">1D Arrays</a></h3>
+<h3><a name="1D">1D Array Parameters</a></h3>
 <p>
   Just a quick syntax reminder about arrays and <a href="https://erinkeith.github.io/135/topics/variables#behavior">variables</a>: the name of an array is "bound" to or refers to the starting address of the collection of values. This means that arrays are always <a href="https://erinkeith.github.io/135/topics/pass_by_address">passed by address</a>. This is just part of how C (and many other languages) work.
 </p>
@@ -46,7 +46,7 @@
 <pre><code>displayDoubleArray(MEASUREMENTS, temperatures);</code></pre>
 </p>
 
-<h3><a name="2D">2D Arrays</a></h3>
+<h3><a name="2D">2D Array Parameters</a></h3>
 <p>
   Before we dive in, you may want to review some of their technical details of <a href="https://erinkeith.github.io/135/topics/2d_arrays#behavior">2D Array Behavior</a>.
 </p>
