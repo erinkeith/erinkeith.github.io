@@ -80,4 +80,73 @@
           <li><code>do while</code> loops</li>
         </ul></td>
     </tr>
+    <tr>
+        <td>Arrays</td>
+        <td>saving a group of stuff</td>
+        <td>store a collection of same-type values that change</td>
+        <td><ul>
+          <li>declaration (with size)</li>
+          <li>access a single element through the <strong>index</strong></li>
+          <li>access all elements with a <code>for</code> loop controlled by the index</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>C-Style Strings</td>
+        <td>saving words</td>
+        <td>store a collection of <code>char</code>s that combine to form language</td>
+        <td><ul>
+          <li>declared as a 1D array of <code>char</code>s</li>
+          <li>access a single element through the <strong>index</strong></li>
+          <li>access all elements with a <code>for</code> loop controlled by the null character <code>\0</code></li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Functions</td>
+        <td>modularize code</td>
+        <td>organize program into chunks of code specific enough to accomplish a single task, but generalizable enough to do it under different circumstances</td>
+        <td><ul>
+          <li>prototypes, definitions, calls</li>
+          <li>returned type/value, name, parameters/arguments</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Pass by Address</td>
+        <td>"return" multiple values</td>
+        <td>since <code>C</code> can only return 1 value from a function, passing the address of a variable allows it to be modified within the function</td>
+        <td><ul>
+          <li>pointer parameters</li>
+          <li><strong>address of</strong> operator <code>&</code></li>
+          <li><strong>dereference</strong> operator <code>*</code></li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>File IO</td>
+        <td>interact with a file</td>
+        <td>read values from or save values to a file on the hard drive</td>
+        <td><ul>
+          <li><code>FILE*</code> data type</li>
+          <li><code>fopen</code> and <code>fclose</code> functions</li>
+          <li><code>fprintf</code> and <code>fscanf</code> functions</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>2D Arrays</td>
+        <td>saving a group of stuff with multiple dimensions</td>
+        <td>store a collection of same-type values that change, in rows and columns</td>
+        <td><ul>
+          <li>declaration (with row and column sizes)</li>
+          <li>access a single element through the row <em>and</em> column <strong>indexes</strong></li>
+          <li>access all elements with an outer <code>for</code> loop controlled by the row index and an inner <code>for</code> loop controlled by the column index</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Arrays of Strings</td>
+        <td>saving a group of words</td>
+        <td>store a collection of C-style strings</td>
+        <td><ul>
+          <li>declared as a 2D array of <code>char</code>s</li>
+          <li>access a single element through the row <em>and</em> column <strong>indexes</strong></li>
+          <li>access all elements with an outer <code>for</code> loop controlled by the row index and an inner <code>for</code> loop controlled by the null character <code>\0</code></li>
+        </ul></td>
+    </tr>
 </table>
