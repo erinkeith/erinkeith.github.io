@@ -157,8 +157,4 @@
     <td><strong>Command Line Arguments</strong></td>
     <td>information sent into the program as parameters into the main function</td>
   </tr>
-  <tr>
-    <td><strong></strong></td>
-    <td></td>
-  </tr>
 </table>
