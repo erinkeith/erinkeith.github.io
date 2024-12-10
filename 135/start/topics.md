@@ -121,7 +121,7 @@
     </tr>
     <tr>
         <td>File IO</td>
-        <td>interact with a file</td>
+        <td>connect to a stream and interact with a file</td>
         <td>read values from or save values to a file on the hard drive</td>
         <td><ul>
           <li><code>FILE*</code> data type</li>
