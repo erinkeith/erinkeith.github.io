@@ -20,6 +20,14 @@
         <th style="width:35%">Notes</th>
     </tr>
     <tr>
+        <td><code>stdio</code> library</td>
+        <td>library needed to interact with the user through the terminal window and keyboard</td>
+        <td>
+            <img src="https://github.com/user-attachments/assets/7a6f4756-2e74-458d-9d97-d9677c9570a3">
+        </td>
+        <td>This is a <em>preprocessor directive</em> which goes above the <code>main</code> (and under the header comments).</td>
+    </tr>
+    <tr>
         <td><code>printf</code></td>
         <td><strong><em>output</em></strong> text to the screen</td>
         <td>code in your program file:<br>
