@@ -136,8 +136,8 @@ The <strong>OR</strong> truth table:
 </thead>
 <tbody>
 <tr><td>We're in CS 135</td><td><em>OR</em></td><td>Erin is teaching.</td><td><code>1</code> (<em>true</em>)</td></tr>
-<tr><td>We're in CS 135</td><td><em>OR</em></td><td>Sara is teaching.</td><td><code>0</code> (<em>false</em>)</td></tr>
-<tr><td>We're in CS 202</td><td><em>OR</em></td><td>Erin is teaching.</td><td><code>0</code> (<em>false</em>)</td></tr>
+<tr><td>We're in CS 135</td><td><em>OR</em></td><td>Sara is teaching.</td><td><code>1</code> (<em>true</em>)</td></tr>
+<tr><td>We're in CS 202</td><td><em>OR</em></td><td>Erin is teaching.</td><td><code>1</code> (<em>true</em>)</td></tr>
 <tr><td>We're in CS 202</td><td><em>OR</em></td><td>Sara is teaching.</td><td><code>0</code> (<em>false</em>)</td></tr>
 </tbody>
 </table>
