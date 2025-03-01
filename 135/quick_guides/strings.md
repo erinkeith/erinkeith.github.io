@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Strings Quick Guide</title>
 <style>
     table{
         width:100%;
@@ -14,9 +10,7 @@
         max-width: 100%;
     }
 </style>
-</head>
-    
-<body>
+
 <h2>Strings Quick Guide</h2>
 <table>
     <tr>
@@ -81,5 +75,3 @@
       </td>
     </tr>
 </table>
-</body>
-</html>
