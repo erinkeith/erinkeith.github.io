@@ -40,7 +40,6 @@
         <td><img alt="element" src="https://github.com/user-attachments/assets/86a77eb0-5630-47c1-b4d9-5e1cf0a8b171"></td>
         <td>
           <ul><li>this is the same as regular <code>char</code> <strong>arrays</strong> except the loop should end at the <strong>null character</strong> <code>\0</code> NOT the <em>capacity</em></ul>
-          </ul>
         </td>
     </tr>
     <tr>
