@@ -18,7 +18,7 @@
 </p>
 <h4><a name="1prototype">Prototypes</a></h4>
 <p>
-  Because the array parameter just stores a memory address, to be able to access all elements in the array, we will <strong>also</strong> need a parameter for <em>size</em> or length. </pre>
+  Because the array parameter just stores a memory address, to be able to access all elements in the array, we will <strong>also</strong> need a parameter for <em>size</em> or length.
 <pre><code>void displayDoubleArray(int length, const double array[]);</code></pre>
 </p>
 <p>
