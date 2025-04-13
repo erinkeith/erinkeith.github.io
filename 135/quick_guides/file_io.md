@@ -20,7 +20,10 @@
         <th style="width:35%">Notes</th>
     </tr>
     <tr>
-        <td><code>FILE*</code>'s</td>
+        <td><code>FILE*</code>'s<br>
+            <code>fopen</code><br>
+            <code>fclose</code><br>
+        </td>
         <td>before you can interact with a file, you need to create a connection or <strong><em>stream</em></strong></td>
         <td><img src="https://github.com/user-attachments/assets/d858a786-ec2f-4612-93fe-439b5bceee30"></td>
         <td><ol>
@@ -46,7 +49,7 @@
                          </ul>
                  </li></ul>
              </li>
-             <li>close the connection
+             <li>after interacting with the file, close the connection
                  <ul><li>call the fclose function
                          <ul><li>send in the FILE pointer</li></ul>
                  </li></ul>
