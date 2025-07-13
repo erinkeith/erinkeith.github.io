@@ -37,7 +37,7 @@
           <ul><li>needs a <strong>indentifier</strong> and <strong><em>two</em> indexes</strong> between <strong>square brackets</strong></li>
               <li>the <strong>indexes</strong> between the square brackets must be of type <code>int</code></li>
               <li>the first index is for the <strong>row</strong> number (starting at 0)</li>
-              <li>the second index is for the <strong>column</strong> number (starting at 0)</li></li>
+              <li>the second index is for the <strong>column</strong> number (starting at 0)</li>
               <li>this expression should <strong><em>NOT</em></strong> include a <strong>data type</strong></li>
           </ul>
         </td>
