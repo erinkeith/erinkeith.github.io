@@ -1,5 +1,5 @@
 <p>Skip the explanation and go straight to the <a href="https://erinkeith.github.io/135/quick_guides/program_basics">Quick Guide</a>.</p>
-<h2>In the beninging</h2>
+<h2>Let's get this party started!</h2>
 <p>Generally, the code we write in this class will run <a href="https://www.dictionary.com/browse/sequentially"><i>sequentially</i></a>, so we should have a well-defined, consistent starting point. Enter the <strong><span style="font-family: 'courier new', courier;">main</span></strong> function! (We'll learn about "functions" later, I promise!)</p>
 
 <p>Every program in C must include a <strong><span style="font-family: 'courier new', courier;">main</span></strong> function. While you may see some variations of the format in the wild, our programs will always start with</p>
