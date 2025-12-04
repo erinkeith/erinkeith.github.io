@@ -20,12 +20,13 @@
     	 <li><a href="#call">Calls</a></li>
        <li><a href="#prototype">Prototypes</a></li>
     </ul></li>
-    <li><a href="#metaphor">Metaphor: Like a Thanksgiving Dinner</a></li><!--
     <li><a href="#behavior">Behavior</a>
-    <ul><li><a href="#input">Parameters vs Arguments</a></li>
+    <ul><li><a href="#value">Pass by Value</a></li>
+        <!--<li><a href="#input">Parameters vs Arguments</a></li>
         <li><a href="#scope">Scope and Duration</a></li>
-        <li><a href="#output">Returned Values</a></li></ul>
-    </li>-->
+        <li><a href="#output">Returned Values</a></li>--></ul>
+    </li>
+  <li><a href="#metaphor">Metaphor: Like a Thanksgiving Dinner</a></li>
 </ul>
   
 <h3><a name="syntax">Syntax</a></h3>
@@ -86,9 +87,12 @@
     We can apply this new structure to put all the pieces of our example together:<br>
     <img src="https://github.com/user-attachments/assets/dd22e020-40bc-43c5-8c87-5927b4a8e867" width="400">
   </p>
-<!--
 <h3><a name="behavior">Behavior</a></h3>
-  <h4><a name="input">Parameters vs Arguments</a></h4>
+<h4><a name="value">Pass by Value</a></h4>
+<p>It might help to start by examining the default method of managing parameters in C: Pass by Value.</p>
+<p>In C (and C++), the default approach for managing "input" during a function call is to copy the value of the matching argument and store it in the function parameter. This supports scope rules by reinforcing a very concrete boundary around the functions and separating the arguments from the parameters. Any changes made to the parameter within the function do not affect the original argument at all (if it seems like it does, then it's actually Pass by Address under the hood).
+</p>
+<!--  <h4><a name="input">Parameters vs Arguments</a></h4>
   <p>represent the "different circumstances"</p>
   <h4><a name="scope">Scope and Duration</a></h4>
   <h4><a name="output">Returned Values</a></h4>
