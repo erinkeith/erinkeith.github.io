@@ -5,7 +5,6 @@
 <ul>
     <li><a href="#background">Background</a>
       <ul>
-        <li><a href="#value">Pass by Value</a></li>
         <li><a href="#pointers">Pointers</a></li>
       </ul></li>
     <li><a href="#syntax">Syntax</a>
@@ -19,12 +18,6 @@
 <p>
   Pass by Address is a pretty complex concept, in large part because it combines many technical details to be able to accomplish something kind of abstract, so covering some background knowledge first might be helpful.
 </p>
-<h4><a name="value">Pass by Value</a></h4>
-<p>It might help to start by examining the default method of managing parameters in C: Pass by Value.</p>
-<p>
-  In C (and C++), the default approach for managing "input" during a function call is to copy the value of the matching argument and store it in the function parameter. This supports scope rules by reinforcing a very concrete boundary around the functions and separating the arguments from the parameters. Any changes made to the parameter within the function do not affect the original argument at all (if it seems like it does, then it's actually Pass by Address under the hood).
-</p>
-
 <p>
   We've delved a little into how <a href="https://erinkeith.github.io/135/topics/variables#behavior">variables</a> work, so now it's time to contemplate a new level of data type! During runtime, the variable name is bound to a memory address that the operating system chooses. While we can't/shouldn't determine what that memory address is, we can not only access it, we can store it! And that's what pointers are for.
 </p>
