@@ -1,5 +1,5 @@
 <h2>Selection</h2>
-<p><strong>Selection</strong> allows us to include choices in our program. Is it going to rain? Let's grab an umbrella!</p>
+<p><strong>Selection</strong> allows us to include choices in our program. Is it going to rain? Then let's grab an umbrella!</p>
 <ul>
     <li><a href="#syntax">Syntax</a>
     <ul><li><a href="#expressions">Expressions</a></li>
@@ -13,24 +13,24 @@
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <h4><a name="expressions">Relational and Logical Expressions</a></h4>
-<p>for relational and logical operator precedence and associativity, please see <a href="https://erinkeith.github.io/135/quick_guides/operators">Operator Precedence and Associativity</a></p>
-<p>Most choices depend on comparing conditions or whether or not certain conditions are true. These relationships and conditions can be <em>evaluated</em> through relational and logical expressions.<br>
-For example, if the temperature outside is below a certain threshold we would want to grab a jacket. The relationship between too cold and the current temperature could be determined with the following expression:<br>
-<code>currentTemp < tooCold</code><br><br>
-Relational and logical expressions always evaluate to <em>true</em> or <em>false</em> (although the C programming language uses <code>1</code> and <code>0</code> instead) and because they have lower precedence than arithmetic operators, the expressions can get quite complex:<br>
-<code>currentTemp - 10 < tooCold</code><br><br>
+<p><strong>Note!</strong> For relational and logical operator precedence and associativity, please see <a href="https://erinkeith.github.io/135/quick_guides/operators">Operator Precedence and Associativity</a></p>
+<p>Most choices depend on comparing conditions or deciding whether certain conditions are true. These sorts of relationships and conditions can be <em>evaluated</em> through relational and logical expressions.<br>
+For example, if the temperature outside is below a certain value we would want to grab a jacket. The relationship between "too cold" and the current temperature could be determined with the following expression:<br>
+<code>currentTemp <= tooCold</code><br><br>
+Relational and logical expressions always evaluate to <em>true</em> or <em>false</em> (although the C programming language uses <code>1</code> and <code>0</code> instead of <em>true</em> or <em>false</em>) and because they have lower precedence than arithmetic operators, the expressions can get quite complex:<br>
+<code>currentTemp - 10 <= tooCold</code><br><br>
 Logical operators have even lower precedence than relational operators!<br>
-<code>currentTemp < tooCold && currentTemp > 32</code><br><br>
+<code>currentTemp <= tooCold && currentTemp > 32</code><br><br>
 also checks that the current temperature is above freezing.
 </p>
 <h4><a name="if_else"><code>if</code> and <code>else</code></a></h4>
-<p>These expressions can be used in <code>if/else</code> statements to determine which blocks (parts) of code to execute, resulting in our programs <em>behaving</em> in different ways! These start with the <code>if</code> keyword, are followed by the expression to evaluate in the parenthesis, and should include curly braces surrounding the block of code you want executed:<br>
-<pre><code>if(currentTemp < tooCold){
+<p>These expressions can be used in <code>if/else</code> statements to determine which "blocks" (or parts) of code to execute, resulting in our programs <em>behaving</em> in different ways! These start with the <code>if</code> keyword, are followed by the expression to evaluate in the parenthesis, and should include curly braces surrounding the block of code you want executed:<br>
+<pre><code>if(currentTemp <= tooCold){
     printf("Don't forget a jacket!\n");
 }</code></pre>
 
-<br>When there's an alternative path to the true condition which must be taken, use the <code>else</code> keyword and curly braces for that block of code. <strong>Note!</strong> There is no expression to evaluate after the <code>else</code>!<br>
-<pre><code>if(currentTemp < tooCold){
+<br>When there's an alternative path to that followed under the true condition, use the <code>else</code> keyword and curly braces for that block of code. <strong>Note!</strong> There is no expression to evaluate after the <code>else</code>!<br>
+<pre><code>if(currentTemp <= tooCold){
     printf("Don't forget a jacket!\n");
 }
 else{
@@ -41,14 +41,14 @@ else{
 <pre><code>if(currentTemp < 32){
     printf("Oof, too cold! Stay home.\n");
 }
-else if(currentTemp < tooCold){
+else if(currentTemp <= tooCold){
     printf("Don't forget a jacket!\n");
 }
 else{
     printf("So fresh and so clean!\n");
 }</code></pre>
-</p>
-<p>There are a ton of different ways to use them, depending on the problem and how you approach it. <code>if</code> statements can even be used on their own. As long as the expression between the parenthesis evaluates to <code>1</code> (<em>true</em>), the code between the parenthesis executes:
+These paths are considered "mutually exclusive", since only one of the many code blocks will execute (the rest will be skipped).</p>
+<p>There are a ton of different ways to use selection, depending on the problem and how you approach it! Don't forget that <code>if</code> statements can even be used on their own. As long as the expression between the parenthesis evaluates to <code>1</code> (<em>true</em>), the code between the curly braces executes:
 <pre><code>if(raining == 'y' || raining == 'Y'){
     umbrella = 1;
 }</code></pre>
@@ -64,7 +64,7 @@ If there's no action to take when it's not raining, then we don't need an <code>
         //different code to execute
         break;
     default:
-        //code to execute if no other cases are true
+        //code to execute if no cases are true
 }</code></pre>
 
 <br>And a more specific example:<br>
@@ -96,7 +96,7 @@ If there's no action to take when it's not raining, then we don't need an <code>
     default:
         printf("Invalid grade.\n");
 }</code></pre>
-<br>If the <code>studentGrade</code> variable stores either <code>A</code>, <code>B</code>, or <code>C</code> then <code>Have fun in 202!</code> will display to the screen. While this allows for using a <code>switch</code> for a range, I'd only recommend it if there are very few possible matches.<br>
+<br>If the <code>studentGrade</code> variable stores either an <code>'A'</code>, <code>'B'</code>, or <code>'C'</code> then <code>Have fun in 202!</code> will display to the screen. While this allows for using a <code>switch</code> for a range, I'd only recommend it if there are very few possible matches.<br>
 </p>
 <h3><a name="behavior">Behavior</a></h3>
 <h4><a name="expression_behavior">Relational and Logical Expressions</a></h4>
