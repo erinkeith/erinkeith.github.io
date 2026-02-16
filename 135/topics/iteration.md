@@ -6,6 +6,7 @@
   If we don't figure these things out, we either can't start running or will never stop (my personal nightmare)!</p>
 <ul>
     <li><a href="#syntax">Syntax</a></li>
+        <ul><li><a href="https://erinkeith.github.io/135/quick_guides/iteration">Coding Quick Guide</a></li></ul>
 </ul>
 <h3><a name="syntax">Syntax</a></h3>
 <p>In addition to the <u>loop body</u>, there are 3 components that should be included in each loop:
