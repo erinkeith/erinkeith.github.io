@@ -16,7 +16,7 @@
 <h4><a name="declaration">Declaration</a></h4>
 <p>
   Array syntax is similar to variable syntax, with one important difference: <strong>size</strong>, which tells us how many values will be in our group. 
-  The C <span title="coding rules for a programming language">syntax</span> for an array declaration statement must include a <a href="https://github.com/erinkeith/erinkeith.github.io/blob/main/135/topics/variables.md)">data type</a>, an identifier (or name), a size (between square brackets), and end with a semicolon.
+  The C <span title="coding rules for a programming language">syntax</span> for an array declaration statement must include a <a href="https://github.com/erinkeith/erinkeith.github.io/blob/main/135/topics/variables.md">data type</a>, an identifier (or name), a size (between square brackets), and end with a semicolon.
 </p>
 <p>For example, if we need to save 24 temperature measurements in our program, we can declare an array:<br>
   <code>double temperatures[24];</code>
@@ -59,7 +59,7 @@
 <p>Now we only have to change <code>24</code> to <code>96</code> once at the beginning of the file if we measure every fifteen minutes instead of every hour.
 </p>
 <h3><a name="behavior">Behavior</a></h3>
-<p>Before jumping into <strong>array</strong> behavior, it may help to take a refresher in <a href="https://erinkeith.github.io/135/topics/variables#behavior">Variable Behavior</a>.</p>
+<p>Before jumping into <strong>array</strong> behavior, it may help to take a refresher in <a href="https://erinkeith.github.io/135/topics/variables#behavior">variable behavior</a>.</p>
 <p>
   There's also no visible program behavior associated with array declaration. Again, the operating system is reserving memory, but instead of enough bytes for a single value, it reserves <strong>array size * number of bytes</strong> space. 
 </p>
