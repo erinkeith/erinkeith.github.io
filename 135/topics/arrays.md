@@ -16,7 +16,7 @@
 <h4><a name="declaration">Declaration</a></h4>
 <p>
   Array syntax is similar to variable syntax, with one important difference: <strong>size</strong>, which tells us how many values will be in our group. 
-  The C <span title="coding rules for a programming language">syntax</span> for an array declaration statement must include a <a href="https://github.com/erinkeith/erinkeith.github.io/blob/main/135/topics/variables.md">data type</a>, an identifier (or name), a size (between square brackets), and end with a semicolon.
+  The C <span title="coding rules for a programming language">syntax</span> for an array declaration statement must include a <a href="https://github.com/erinkeith/erinkeith.github.io/blob/main/135/topics/variables">data type</a>, an identifier (or name), a size (between square brackets), and end with a semicolon.
 </p>
 <p>For example, if we need to save 24 temperature measurements in our program, we can declare an array:<br>
   <code>double temperatures[24];</code>
