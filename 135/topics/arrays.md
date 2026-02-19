@@ -7,7 +7,7 @@
 <ul>
     <li><a href="#syntax">Syntax</a></li>
     <ul><li><a href="#declaration">Declaration</a></li>
-        <li><a href="#element_access">Accessing an Element</a></li>
+        <li><a href="#element_access">Accessing a Single Element</a></li>
         <li><a href="#all_elements">Accessing All Elements</a></li>
         <li><a href="#macros">Macros</a></li></ul>
     <li><a href="#behavior">Behavior</a></li>
@@ -21,7 +21,7 @@
 <p>For example, if we need to save 24 temperature measurements in our program, we can declare an array:<br>
   <code>double temperatures[24];</code>
 </p>
-<h4><a name="element_access">Accessing Elements</a></h4>
+<h4><a name="element_access">Accessing a Single Elements</a></h4>
 <p>
   There are many benefits to grouping values, but we will still need to access each value (called an <strong><em>element</em></strong>) one at a time. To do that, we'll use the square brackets again but instead of having the size inside, it will be the location (called the <strong><em>index</em></strong>). <strong><em>Index</em></strong> values can be any integer value between <code>0</code> and one less than the original size (inclusive).
 </p>
@@ -61,12 +61,12 @@
 <h3><a name="behavior">Behavior</a></h3>
 <p>Before jumping into <strong>array</strong> behavior, it may help to take a refresher in <a href="https://erinkeith.github.io/135/topics/variables#behavior">variable behavior</a>.</p>
 <p>
-  There's also no visible program behavior associated with array declaration. Again, the operating system is reserving memory, but instead of enough bytes for a single value, it reserves <strong>array size * number of bytes</strong> space. 
+  There's also no visible program behavior associated with array declaration. Again, the operating system is reserving memory, but instead of enough bytes for a single value, it reserves <strong>array size * number of bytes</strong> with <strong>contiguous</strong> (next to each other) memory addresses. 
 </p>
 <p>
   It's pretty normal to start out thinking that an array name refers to the whole group of values, but it really only refers to the starting address of the array. Remembering that can help prevent bugs, especially when using arrays with <strong>functions</strong>.</p>
 <p>
-  To access individual elements, the compiler does some simple arithmetic with the index and the data type size to determine the correct location of that element. <img src="https://github.com/user-attachments/assets/5eaa63a8-8f91-400f-a4e9-a5e5612ee737"></p>
+  To access individual elements, the compiler does some simple arithmetic with the index and the data type size to determine the correct location of that element within the <strong>contiguous</strong> (in a row) memory addresses. <img src="https://github.com/user-attachments/assets/5eaa63a8-8f91-400f-a4e9-a5e5612ee737"></p>
 <p>
   This is why indexes always starts at <code>0</code>! The result of <strong>0 * number of bytes + starting address</strong> is the starting address and first element!
 </p>
