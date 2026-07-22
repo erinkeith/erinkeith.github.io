@@ -1,18 +1,18 @@
 <a href="https://erinkeith.github.io/135/topics/uses">Topic Uses</a> (helpful for writing algorithms and studying)
 <h2>Topic Explanations</h2>
-        <ul>
-            <li><a href="https://erinkeith.github.io/135/topics/program_basics">Program Basics</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/variables">Variables</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/expressions">Expressions</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/formatted_io">Formatted IO</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/selection">Selection</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/iteration">Iteration</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/arrays">Arrays</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/strings">C-style Strings</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/functions">Functions</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/pass_by_address">Pass by Address</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/file_io">File IO</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/2d_arrays">2D Arrays</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/arrays_strings">Arrays of Strings</a></li>
-            <li><a href="https://erinkeith.github.io/135/topics/arrays_functions">Arrays in Functions</a></li>
-        </ul>
+<ul>
+    <li><a href="https://erinkeith.github.io/135/topics/program_basics">Program Basics</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/variables">Variables</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/expressions">Expressions</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/formatted_io">Formatted IO</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/selection">Selection</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/iteration">Iteration</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/arrays">Arrays</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/strings">C-style Strings</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/functions">Functions</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/pass_by_address">Pass by Address</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/file_io">File IO</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/2d_arrays">2D Arrays</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/arrays_strings">Arrays of Strings</a></li>
+    <li><a href="https://erinkeith.github.io/135/topics/arrays_functions">Arrays in Functions</a></li>
+</ul>
