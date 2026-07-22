@@ -1,4 +1,4 @@
-<a href="https://erinkeith.github.io/135/topic/uses">Topic Uses</a> (helpful for writing algorithms and studying)
+<a href="https://erinkeith.github.io/135/topics/uses">Topic Uses</a> (helpful for writing algorithms and studying)
 <h2>Topic Explanations</h2>
         <ul>
             <li><a href="https://erinkeith.github.io/135/topics/program_basics">Program Basics</a></li>
