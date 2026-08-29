@@ -11,14 +11,14 @@ You must have already:
 1. signed up for GitHub
 2. ensured your GitHub username follows the required *labsection#-lastname-firstname* format
 3. joined the CSE-UNR organization by clicking "accept" in the invitation email
+4. opened a <strong>terminal window</strong> in your *development environment*
 
 ## 1. Log in
 
 ```sh
 gh student login
 ```
-
-![gh student login](images/gh_student_auth.gif)
+<img width="1175" height="694" alt="gh_student_auth" src="https://github.com/user-attachments/assets/b9d5f803-ae04-4403-9fd7-92b0a9c2efa8" />
 
 This runs `gh auth login` with the scopes you need. If you skip it, the next
 command logs you in automatically. `gh student logout` mirrors `gh auth logout`.
@@ -28,8 +28,7 @@ command logs you in automatically. `gh student logout` mirrors `gh auth logout`.
 ```sh
 gh student accept <org> <classroom> <assignment>
 ```
-
-![gh student accept](images/gh_student_accept.gif)
+<img width="1175" height="694" alt="gh_student_accept" src="https://github.com/user-attachments/assets/680da4c9-4f8a-4e3b-b083-08d4d2510a2f" />
 
 - `<org>` — your classroom's GitHub organization.
 - `<classroom>` — the classroom your teacher set up (e.g., `cs-principles`).
