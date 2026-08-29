@@ -4,6 +4,6 @@
         <ul>
             <li><a href="https://erinkeith.github.io/135/quick_guides/linux_commands">Basic Linux Commands</a></li>
         </ul>
-    <li><a href="https://erinkeith.github.io/135/start/git">git, GitHub, and GitHub Classroom</a></li>
+    <li><a href="https://erinkeith.github.io/135/start/git">git, GitHub, and Classroom50</a></li>
     <li><a href="https://erinkeith.github.io/135/start/glossary">Glossary</a></li>
 </ul>
