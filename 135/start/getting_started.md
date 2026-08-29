@@ -7,6 +7,7 @@
     <li><a href="https://erinkeith.github.io/135/start/git">git, GitHub, and Classroom50</a></li>
         <ul>
             <li><a href="https://erinkeith.github.io/135/start/classroom50">Classroom50 CLI Student Guide</a></li>
+            <li><a href="https://erinkeith.github.io/135/start/autograder">Using the "Autograder"</a></li>
         </ul>
     <li><a href="https://erinkeith.github.io/135/start/glossary">Glossary</a></li>
 </ul>
